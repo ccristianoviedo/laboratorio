@@ -1,0 +1,220 @@
+@media screen and (max-width:480px)
+ {body
+    
+    .header{
+        width: 100%;
+        margin: auto;
+       
+    }
+    .titulopadre{
+        height: 240px; 
+        .cajatitulo {
+        margin-top: 150px;
+        width: 130px;
+        }
+        .cajatituloimagen img{
+        margin-top: 80px;            
+        }
+    }
+     
+    #contacto{
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        height: 30px;
+        text-align:start;
+        margin-left: 1px;
+        color: rgb(146, 145, 145);
+        font-size: 70%;        
+    }
+    .contacto1 {
+        margin-top: 5px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-weight: bold;
+    
+    }
+    .contacto2 {
+        margin-top: 5px;
+        margin-right: 1px;
+        margin-left: 110px;
+        width: 30px;
+        height: 30px;
+    }
+    .contacto2 img{
+        width: 18px;
+        height: 15px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .contacto2 a:hover{
+        background-color: rgb(248, 248, 247);
+        padding: 10px;
+          
+    }
+    #menu {
+        background-color: white;
+        padding-left: 4px;
+    } 
+    #menu a{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    #menu ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    #menu ul li{
+        display: inline-block;
+    
+    }
+    #menu ul li a{
+        color: rgb(146, 145, 145);
+        display: block;
+        padding: 1px 3px;
+        margin-bottom: 10px;
+        justify-content: space-evenly;
+        text-decoration: none;
+        font-size: 60%;
+    }
+     
+    #menu ul li a:hover{
+        background-color: rgba(110, 236, 162, 0.596);
+        
+        
+    }
+    .Domicilio {
+        color:white;
+        width: 387px;
+        height: 35vh;
+        text-align: center;
+        padding-top: 30px;
+        background-image: url(https://irp-cdn.multiscreensite.com/290518f0/DESKTOP/jpg/1624224-cieb-laboratorio-de-analisis-clinicos-lab2.jpg);
+        background-size: cover;
+        margin-top: 5px;
+        
+    }
+    .grilla{
+        p{
+        margin-top:20px;
+        }
+    }
+    .recom{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 300px;
+        margin-left: 15px;
+        margin-bottom: 300px;
+        h3 {
+            color: rgb(146, 145, 145);;
+        }
+        .recom1 img{
+            margin-left:150px;
+            
+        }
+        .recom2 img{
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+    }
+    .pie4 {
+        padding-left: 50px;
+        margin-top: 100px;
+        width: 400px;
+    
+    }
+    .resultados{
+         width: 500px;
+        }
+    .horarios{
+         display: flex;
+         flex-direction: column;         
+         width: 500px;
+         height: 650px;
+         margin-top: 30px;
+         margin-bottom: 690px;
+         margin-left: 1px;
+        .horarios2 img{
+         width: 551px;
+        }
+        .horarios3 img{
+            width: 551px;
+        }
+    }
+    .somos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 450px;
+        height: 650px;
+        margin-top: 30px;
+        margin-bottom: 490px;
+        margin-left: 2px;
+            .somos1 {
+                
+                p {
+                    color: rgb(146, 145, 145);;;
+                    font-size: 120%;
+                    padding: 70px 20px 5px 20px;
+                    text-align: center;
+                }
+                
+            }
+            .somos2 {
+                background-image: url(https://www.infobioquimica.com/new/wp-content/uploads/2016/08/ejercicioprofesional-696x464.jpg);
+                background-size: cover;
+               
+            }
+            .somos3 {
+                background-image: url(https://st4.depositphotos.com/19350832/i/600/depositphotos_234939210-stock-photo-set-chemical-tube-development-pharmacy.jpg);
+                background-size: cover;
+            }
+            
+            .somos4 {
+                p {
+                    color: rgb(146, 145, 145);;;
+                    font-size: 120%;
+                    padding: 140px 20px 5px 20px;
+                    text-align: center;
+                }
+            }
+    }
+    .calidad{
+        width: 480px;        
+    }
+    .obras{
+        width: 480px;
+        margin-left: 10px;
+    }
+    
+    .obras1 {
+        padding-top: 20px;
+        img{
+        width: 450px;
+        }
+    }
+    .obras2 {
+        padding-top: 20px;
+        img{
+        width: 450px;
+        }
+    }
+    .obras3 {
+        padding-top: 20px;
+        img{
+        width: 450px;
+        }
+    }
+         
+    .obras4 {
+        padding-top: 20px;
+        img{
+         width: 450px;
+        }
+    }
+    
+}

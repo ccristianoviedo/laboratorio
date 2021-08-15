@@ -1,0 +1,39 @@
+.somos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1150px;
+    height: 850px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    margin-left: 90px;
+        .somos1 {
+            
+            p {
+                color: rgb(146, 145, 145);;;
+                font-size: 120%;
+                padding: 70px 20px 5px 20px;
+                text-align: center;
+            }
+            
+        }
+        .somos2 {
+            background-image: url(https://www.infobioquimica.com/new/wp-content/uploads/2016/08/ejercicioprofesional-696x464.jpg);
+            background-size: cover;
+           
+        }
+        .somos3 {
+            background-image: url(https://st4.depositphotos.com/19350832/i/600/depositphotos_234939210-stock-photo-set-chemical-tube-development-pharmacy.jpg);
+            background-size: cover;
+        }
+        
+        .somos4 {
+            p {
+                color: rgb(146, 145, 145);;;
+                font-size: 120%;
+                padding: 140px 20px 5px 20px;
+                text-align: center;
+            }
+        }
+}
+
