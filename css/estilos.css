@@ -9,9 +9,6 @@
   overflow: hidden;
   font-family: 'Roboto', sans-serif; }
 
-.header {
-  margin: auto; }
-
 h1 {
   text-align: center;
   font-size: 25px;
@@ -52,13 +49,13 @@ h3 {
   height: 4px; }
 
 .cajatituloimagen img {
-  width: 180px;
-  height: 130px;
+  width: 160px;
+  height: 120px;
   border-radius: 50%;
   overflow: hidden;
   border: #fff solid;
-  margin-left: 0px;
-  margin-top: 10px; }
+  margin-left: 10px;
+  margin-top: 20px; }
 
 #contacto {
   display: flex;
@@ -116,12 +113,13 @@ h3 {
   text-decoration: none; }
 
 #menu ul li a:hover {
-  background-color: rgba(110, 236, 162, 0.596); }
+  background-color: rgba(145, 188, 245, 0.596); }
 
 main {
   width: 95%;
   margin-left: 40px;
-  margin-right: 40px; }
+  margin-right: 40px;
+  margin-top: 30px; }
   main h5 {
     font-size: 300%; }
 
@@ -194,23 +192,23 @@ main {
 
 footer {
   width: 100%;
-  background-image: url(); }
+  background-image: url(https://concepto.de/wp-content/uploads/2018/09/bioquimica-e1536671209115.jpg);
+  background-size: cover; }
 
 .pie {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: 300px;
+  height: 400px;
   font-family: 'Roboto', sans-serif;
-  font-size: 95%; }
+  font-size: 125%; }
 
 .pie1 {
   padding-top: 30px;
-  padding-left: 20px; }
+  padding-left: 30px; }
 
 .pie1 img {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   overflow: hidden;
   margin-top: 50px; }
@@ -219,16 +217,17 @@ footer {
   margin-left: 10px;
   width: 300px;
   margin-top: 80px;
+  margin-left: 100px;
   text-align: center; }
 
 .pie3 {
-  width: 100px;
+  width: 200px;
   padding-top: 60px;
-  padding-left: 5px;
-  margin-right: 30px; }
+  padding-left: 350px;
+  margin-right: 5px; }
 
 .pie4 {
-  padding-left: 30px;
+  padding-left: 200px;
   margin-top: 120px;
   width: 100px; }
 
@@ -289,6 +288,9 @@ footer {
   margin-left: 250px; }
 
 .form1 {
+  width: 95%;
+  margin-top: 30px;
+  margin-bottom: 15px;
   padding-top: 30px;
   padding-bottom: 60px;
   text-align: center;
@@ -309,15 +311,17 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 1150px;
-  height: 650px;
-  margin-top: 30px;
+  width: 95%;
+  height: 750px;
+  margin-top: 10px;
+  margin-left: 30px;
   margin-bottom: 30px; }
   .calidad .calidad1 {
-    background-image: linear-gradient(to left, rgba(139, 243, 139, 0.705), #ddf5cf); }
+    background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda); }
     .calidad .calidad1 h3 {
       color: white;
-      margin-top: 100px; }
+      margin-top: 100px;
+      font-size: 200%; }
   .calidad .calidad2 {
     background-image: url(https://irp-cdn.multiscreensite.com/5b94a334/DESKTOP/png/1875503-galeria_%281%29_%282%29.png);
     background-size: cover; }
@@ -337,7 +341,7 @@ footer {
       padding-right: 30px;
       color: white; }
   .calidad .calidad4 {
-    background-image: linear-gradient(to left, rgba(139, 243, 139, 0.705), #ddf5cf); }
+    background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda); }
     .calidad .calidad4 h3 {
       color: white;
       margin-top: 100px; }
@@ -388,7 +392,7 @@ footer {
   margin-bottom: 90px;
   margin-left: 70px; }
   .horarios .horarios1 {
-    background-image: linear-gradient(to left, rgba(139, 243, 139, 0.705), #96bd7f); }
+    background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda); }
     .horarios .horarios1 h3 {
       color: white;
       margin-top: 100px; }
@@ -401,7 +405,7 @@ footer {
     width: 580px;
     height: 350px; }
   .horarios .horarios4 {
-    background-image: linear-gradient(to left, rgba(139, 243, 139, 0.705), #96bd7f); }
+    background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda); }
     .horarios .horarios4 h3 {
       color: white;
       margin-top: 70px; }
@@ -414,19 +418,20 @@ footer {
 .resultados {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  width: 1150px;
-  height: 550px;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 600px;
   margin-top: 30px;
-  margin-bottom: 90px; }
+  margin-left: 30px;
+  margin-bottom: 30px; }
   .resultados .resultados1 {
-    background-image: linear-gradient(to left, rgba(139, 243, 139, 0.705), #96bd7f); }
+    background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda); }
     .resultados .resultados1 h3 {
       color: white;
       margin-top: 160px; }
     .resultados .resultados1 p {
       color: white;
-      font-size: 120%;
+      font-size: 150%;
       padding: 10px 20px 5px 20px;
       text-align: center; }
   .resultados .resultados2 {

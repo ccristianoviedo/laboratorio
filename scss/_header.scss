@@ -1,9 +1,4 @@
-.header{
-   
-    margin: auto;
 
-   
-}
 
 h1 {
     text-align: center;
@@ -53,13 +48,13 @@ h3{color: rgb(63, 27, 46);text-align: center;
 }     
 
 .cajatituloimagen img{
-    width: 180px;
-    height: 130px;
+    width: 160px;
+    height: 120px;
     border-radius: 50%;
     overflow: hidden;
     border: #fff solid;
-    margin-left: 0px;
-    margin-top:10px;
+    margin-left: 10px;
+    margin-top:20px;
     
   
 }
@@ -127,7 +122,7 @@ h3{color: rgb(63, 27, 46);text-align: center;
 }
  
 #menu ul li a:hover{
-    background-color: rgba(110, 236, 162, 0.596);
+    background-color: rgba(145, 188, 245, 0.596);
     
     
 }

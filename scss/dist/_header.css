@@ -1,7 +1,3 @@
-.header {
-  margin: auto;
-}
-
 h1 {
   text-align: center;
   font-size: 25px;
@@ -47,13 +43,13 @@ h3 {
 }
 
 .cajatituloimagen img {
-  width: 180px;
-  height: 130px;
+  width: 160px;
+  height: 120px;
   border-radius: 50%;
   overflow: hidden;
   border: #fff solid;
-  margin-left: 0px;
-  margin-top: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 #contacto {
@@ -122,5 +118,5 @@ h3 {
 }
 
 #menu ul li a:hover {
-  background-color: rgba(110, 236, 162, 0.596);
+  background-color: rgba(145, 188, 245, 0.596);
 }
