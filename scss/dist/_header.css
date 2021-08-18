@@ -1,5 +1,4 @@
 .header {
-  width: 90%;
   margin: auto;
 }
 
@@ -28,7 +27,7 @@ h3 {
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  height: 120px;
+  height: 150px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -36,8 +35,9 @@ h3 {
   text-align: left;
   width: 200px;
   height: 120px;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 100px;
+  margin-left: 50px;
 }
 
 .cajatitulo hr {
@@ -48,43 +48,43 @@ h3 {
 
 .cajatituloimagen img {
   width: 180px;
-  height: 140px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
   border: #fff solid;
   margin-left: 0px;
-  margin-top: 1px;
+  margin-top: 10px;
 }
 
 #contacto {
   display: flex;
   flex-direction: row;
-  width: 700px;
-  height: 30px;
+  width: 800px;
+  height: 40px;
   text-align: center;
-  margin-left: 180px;
+  margin-left: 150px;
   color: #929191;
   font-size: 80%;
 }
 
 .contacto1 {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-left: 10px;
   margin-right: 10px;
   font-weight: bold;
 }
 
 .contacto2 {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 30px;
   width: 30px;
   height: 30px;
 }
 
 .contacto2 img {
-  width: 30px;
-  height: 15px;
+  width: 60px;
+  height: 30px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -96,7 +96,6 @@ h3 {
 
 #menu {
   background-color: white;
-  padding-left: 4px;
 }
 
 #menu a {

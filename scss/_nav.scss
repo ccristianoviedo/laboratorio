@@ -1,7 +1,6 @@
 .recom{
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        grid-template-rows: 1fr 1fr ;
+        display: flex;
+        flex-direction: row;
         width: 900px;
         height: 250px;
         margin-left: 90px;
@@ -17,15 +16,17 @@
     
 }
 .recom1 img{
-    margin-bottom: 20px;
-    margin-left: 140px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    margin-bottom: 180px;
+    margin-left: 50px;
+    width: 150px;
+    height: 250px;
+    border-radius: 70%;
+    overflow: hidden;
+    
     border-bottom: rgb(146, 145, 145)solid;
 
 }
-.recom2 img{
+.recom3 img{
     margin-left: 150px;
     width: 100px;
     height: 100px;
@@ -33,23 +34,29 @@
     border-bottom: rgb(146, 145, 145)solid;
 
 }
-.recom3 {
+.recom2 p {
+    margin-bottom: 100px;
     color: rgb(146, 145, 145);
-    margin-left: 95px;
-    margin-top: 20px;
-    width: 200px;
-    height: 150px;
+    margin-left: 35px;
+    margin-top: 30px;
+    width: 450px;
+    height: 100px;
     text-align: justify;
-    font-size: 70%;
-    
-
-}
-.recom4 {
+    font-size: 140%;
+    }
+.recom2 h3 {
+    margin-left: 30px;
+ }
+.recom4  p{
+    margin-bottom: 100px;
     color: rgb(146, 145, 145);
-    margin-left: 100px;
-    margin-top: 20px;
-    width: 200px;
-    height: 150px;
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 450px;
+    height: 100px;
     text-align: justify;
-    font-size: 70%;
+    font-size: 140%;    
+    }
+.recom4 h3 {
+   margin-left: 250px;
 }

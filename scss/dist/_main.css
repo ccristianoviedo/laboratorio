@@ -1,0 +1,86 @@
+main {
+  width: 95%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+main h5 {
+  font-size: 300%;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 450px;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  grid-gap: 1px;
+  font-family: "Roboto", sans-serif;
+  background-image: url(https://elmedicointeractivo.com/wp-content/uploads/2020/03/laboratorio-700x307.png);
+  background-size: cover;
+}
+.grilla p {
+  color: white;
+  margin-top: 90px;
+  margin-left: 130px;
+  font-size: 400%;
+}
+
+.hijo {
+  padding-top: 20px;
+}
+
+.hijo a {
+  color: #929191;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 30px;
+  margin-left: 650px;
+  margin-bottom: 350px;
+}
+
+.hijo img {
+  width: 250px;
+  height: 300px;
+  padding-bottom: 100px;
+  border-radius: 80%;
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  height: 600px;
+}
+
+.carousel-inner {
+  font-size: 100%;
+}
+
+.Domicilio {
+  color: white;
+  width: 100%;
+  height: 450px;
+  padding-top: 30px;
+  background-image: url(https://irp-cdn.multiscreensite.com/290518f0/DESKTOP/jpg/1624224-cieb-laboratorio-de-analisis-clinicos-lab2.jpg);
+  background-size: cover;
+  margin-top: 5px;
+}
+.Domicilio h2 {
+  font-size: 300%;
+  padding-top: 60px;
+  padding-left: 180px;
+}
+.Domicilio h5 {
+  padding-left: 550px;
+  padding-top: 15px;
+}
+.Domicilio img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 950px;
+  margin-bottom: 50px;
+}
