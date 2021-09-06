@@ -1,0 +1,32 @@
+article {
+  width: 100%;
+  height: 850px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 30px;
+  background-color: #1f1e1e;
+}
+article .nuestrolabotitulo {
+  margin-bottom: 30px;
+}
+article .nuestrolabotitulo h3 {
+  padding-left: 330px;
+  padding-bottom: 40px;
+  font-size: 170%;
+  color: orangered;
+}
+article .nuestrolabotitulo p {
+  width: 850px;
+  padding-left: 90px;
+  color: gray;
+  font-size: 100%;
+}
+article .carousel-inner img {
+  width: 500px;
+  height: 500px;
+}
+article .carousel-indicators {
+  background-color: orangered;
+  width: 350px;
+  margin-left: 300px;
+}

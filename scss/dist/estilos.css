@@ -1,0 +1,1061 @@
+header {
+  background-image: url(https://laboratorioaclimu.com.ar/wp-content/uploads/2020/08/Aclimu-labo-Buenos-Aires.jpg);
+  background-size: cover;
+  height: 750px;
+  font-family: "Roboto", sans-serif;
+}
+header .barracontacto {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30px;
+}
+header .barracontacto a {
+  color: gray;
+  font-size: 100%;
+  text-decoration: none;
+  padding: 5px 5px 10px 1px;
+}
+header .barracontacto a:hover {
+  background-color: orangered;
+  font-size: 350%;
+  color: white;
+}
+header .barracontacto .mail {
+  margin-left: 780px;
+  margin-top: 5px;
+  font-size: 80%;
+}
+header .barracontacto .telefono {
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: 80%;
+}
+header .barracontacto .contacto2 {
+  margin-top: 2px;
+  margin-right: 10px;
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+}
+header .barracontacto img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+header .titulopadre {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  font-family: "Roboto", sans-serif;
+}
+header .titulopadre .cajatituloimagen img {
+  width: 50px;
+  height: 50px;
+  padding-right: 0px;
+  margin-top: 58px;
+  margin-left: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+header .titulo {
+  color: gray;
+}
+header .titulo h1 {
+  margin: 62px 10px 2px 15px;
+  font-size: 150%;
+}
+header #menu {
+  margin-left: 70px;
+  margin-top: 65px;
+}
+header #menu a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 70%;
+  font-weight: bold;
+}
+header #menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header #menu ul li {
+  display: inline-block;
+}
+header #menu ul li a {
+  color: #c0481c;
+  display: block;
+  padding: 10px 35px;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+header #menu ul li a:hover {
+  background: white;
+  color: gray;
+}
+header .presentacion {
+  margin: 130px 40px 10px 200px;
+}
+header .presentacion h2 {
+  font-size: 300%;
+  font-weight: bolder;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  color: #c0481c;
+  width: 300px;
+}
+header .presentacion p {
+  font-size: 150%;
+  text-align: center;
+  margin-left: 25px;
+  width: 800px;
+}
+header .turnoonline {
+  margin: 100px 40px 10px 250px;
+}
+header .turnoonline button {
+  width: 300px;
+  height: 60px;
+  background-color: #c0481c;
+  font-size: 150%;
+  color: white;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  height: 600px;
+}
+main .Domicilio {
+  color: black;
+  width: 49.5%;
+  background-image: url();
+  background-size: cover;
+}
+main .Domicilio h2 {
+  font-size: 150%;
+  padding-top: 60px;
+  padding-left: 200px;
+  width: 350px;
+}
+main .Domicilio p {
+  padding-left: 200px;
+  padding-top: 55px;
+  color: gray;
+  font-size: 80%;
+  width: 550px;
+}
+main .Domicilio button {
+  width: 250px;
+  height: 50px;
+  background-color: #c0481c;
+  font-size: 150%;
+  color: white;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+main .grilla {
+  background-image: url(https://escuelafarmacia.com/wp-content/uploads/cursos-de-hematologia.jpg);
+  background-size: cover;
+  width: 50%;
+}
+main .grilla p {
+  color: black;
+  margin-top: 180px;
+  margin-left: 100px;
+  font-size: 110%;
+  width: 550px;
+  letter-spacing: 2px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 450px;
+  background: black;
+  color: white;
+}
+footer .pie {
+  display: flex;
+  flex-direction: row;
+  height: 230px;
+  font-family: "Roboto", sans-serif;
+  font-size: 80%;
+}
+footer .pie1 {
+  width: 130px;
+  padding-top: 30px;
+  padding-left: 2px;
+  border-right: white solid;
+}
+footer img {
+  height: 170px;
+  width: 100px;
+  border-radius: 30%;
+  overflow: hidden;
+}
+footer .pie2 {
+  border-left: white solid;
+}
+footer p {
+  margin-left: 10px;
+  width: 210px;
+  margin-top: 20px;
+  margin-left: 90px;
+  text-align: center;
+  font-size: 110%;
+}
+footer .pie3 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  padding-top: 85px;
+  padding-left: 280px;
+  margin-right: 5px;
+}
+footer .pie3 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+footer .pie4 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  width: 100px;
+  margin-left: 90px;
+}
+footer .pie4 .mail {
+  margin-right: 15px;
+  color: white;
+}
+footer .pie5 {
+  justify-content: start;
+  font-size: 80%;
+  width: 140px;
+  font-weight: bold;
+  padding-bottom: 280px;
+  padding-left: 10px;
+}
+
+#menu1 {
+  background: black;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#menu1 a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+}
+
+#menu1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu1 ul li {
+  display: inline-block;
+}
+
+#menu1 ul li a {
+  color: white;
+  display: block;
+  padding: 15px 15px;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+#menu1 ul li a:hover {
+  background: #4d4949;
+  color: white;
+}
+
+.recom {
+  background: linear-gradient(to left, #813f12, #ee8f50);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 180px;
+  margin-top: 0px;
+  padding: 10px 120px 10px 160px;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.recom h3 {
+  color: white;
+}
+.recom .recom2 {
+  border-right: white solid;
+  padding-right: 110px;
+}
+.recom .recom2 p {
+  margin-bottom: 100px;
+  color: white;
+  margin-left: 45px;
+  padding-right: 30px;
+  margin-top: 10px;
+  width: 350px;
+  height: 100px;
+  text-align: justify;
+  font-size: 80%;
+}
+.recom .recom2 h3 {
+  margin-left: 150px;
+}
+.recom .recom4 {
+  padding-left: 70px;
+}
+.recom .recom4 p {
+  margin-bottom: 100px;
+  color: white;
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 350px;
+  height: 100px;
+  text-align: justify;
+  font-size: 80%;
+}
+.recom .recom4 h3 {
+  margin-left: 160px;
+}
+
+.menumedio {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: black;
+  margin-bottom: 150px;
+}
+.menumedio .cajaturno {
+  width: 400px;
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 85px;
+  margin-left: 15px;
+}
+.menumedio .cajaturno img {
+  width: 314px;
+  height: 150px;
+}
+.menumedio .cajaturno .card-body {
+  color: white;
+  background: linear-gradient(to left, #813f12, #ee8f50);
+  height: 220px;
+}
+
+.form2 {
+  background-image: url(https://fmmaster.net/05-2021/resize_1622243907.jpg);
+  background-size: cover;
+}
+
+.form1 {
+  color: azure;
+  width: 30%;
+  height: 900px;
+  margin-top: 180px;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 75px;
+  text-align: center;
+  text-align: start;
+}
+
+.form1 h3 {
+  color: #220606;
+  font-size: 200%;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.form1 label {
+  padding-right: 30px;
+  margin: 10px 10px 10px 10px;
+  font-size: 120%;
+}
+
+.form1 input {
+  width: 400px;
+}
+
+.form1 button {
+  margin: 15px 0px 10px 100px;
+  width: 200px;
+}
+
+.calidad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 350px;
+  margin-top: 200px;
+  margin-right: 2px;
+  margin-bottom: 30px;
+}
+.calidad .calidad1 {
+  background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda);
+}
+.calidad .calidad1 h3 {
+  color: white;
+  margin-top: 70px;
+  font-size: 200%;
+}
+.calidad .calidad2 {
+  background-image: url(https://irp-cdn.multiscreensite.com/5b94a334/DESKTOP/png/1875503-galeria_%281%29_%282%29.png);
+  background-size: cover;
+}
+.calidad .calidad2 p {
+  font-size: 90%;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 30px;
+  color: white;
+}
+.calidad .calidad3 {
+  background-image: url(https://i2.wp.com/www.mariairanzobiotec.com/wp-content/uploads/2020/03/PORTADA_BIOTECNOLOGIA-scaled.jpg?fit=2560%2C1648&ssl=1);
+  background-size: cover;
+}
+.calidad .calidad3 p {
+  font-size: 80%;
+  padding-top: 95px;
+  padding-left: 20px;
+  padding-right: 30px;
+  color: white;
+}
+.calidad .calidad4 {
+  background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda);
+}
+.calidad .calidad4 h3 {
+  color: white;
+  margin-top: 100px;
+}
+
+.iram {
+  display: flex;
+  flex-direction: row;
+}
+.iram .textoiram {
+  width: 900px;
+  margin-left: 70px;
+  margin-top: 60px;
+}
+.iram h3 {
+  margin-bottom: 40px;
+  padding-right: 30px;
+}
+.iram p {
+  color: #706868;
+  font-size: 90%;
+}
+.iram .imageniram {
+  width: 300px;
+  height: 300px;
+}
+
+.obras {
+  display: flex;
+  flex-direction: column;
+  width: 1150px;
+  height: 850px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  padding-left: 150px;
+  padding-top: 30px;
+  background-image: url(http://www.cibic.com.ar/wp-content/uploads/2016/06/PBC.jpg);
+  background-size: cover;
+}
+.obras h3 {
+  color: #929191;
+  padding-right: 350px;
+}
+
+.obras1 {
+  padding-top: 70px;
+}
+.obras1 img {
+  width: 650px;
+}
+
+.obras2 {
+  padding-top: 70px;
+}
+.obras2 img {
+  width: 650px;
+}
+
+.obras3 {
+  padding-top: 70px;
+}
+.obras3 img {
+  width: 650px;
+}
+
+.obras4 {
+  padding-top: 70px;
+}
+.obras4 img {
+  width: 650px;
+}
+
+.horarios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 1150px;
+  height: 650px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  margin-left: 70px;
+}
+.horarios .horarios1 {
+  background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda);
+}
+.horarios .horarios1 h3 {
+  color: white;
+  margin-top: 100px;
+}
+.horarios .horarios1 p {
+  color: white;
+  font-size: 120%;
+  padding: 10px 20px 5px 20px;
+  text-align: center;
+}
+.horarios .horarios3 img {
+  width: 580px;
+  height: 350px;
+}
+.horarios .horarios4 {
+  background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda);
+}
+.horarios .horarios4 h3 {
+  color: white;
+  margin-top: 70px;
+}
+.horarios .horarios4 p {
+  color: white;
+  font-size: 120%;
+  padding: 10px 20px 5px 20px;
+  text-align: center;
+}
+
+.resultados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 90%;
+  height: 700px;
+  margin-top: 180px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.resultados .resultados1 {
+  background-color: blue;
+}
+.resultados .resultados1 h3 {
+  color: white;
+  margin-top: 140px;
+}
+.resultados .resultados1 p {
+  color: white;
+  font-size: 150%;
+  padding: 10px 20px 5px 20px;
+  text-align: center;
+}
+.resultados .resultados2 {
+  color: #929191;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+.resultados .resultados2 label {
+  font-size: 140%;
+}
+
+.somos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 850px;
+  margin-top: 230px;
+}
+.somos .somos1 {
+  width: 695px;
+  height: 350px;
+  background-size: cover;
+  background-image: url(https://irp-cdn.multiscreensite.com/99c815e4/DESKTOP/png/1425933-graciela-rivarola-laboratorio-banner-1.png);
+}
+.somos .somos1 p {
+  color: #3f1b2e;
+  font-size: 130%;
+  padding: 70px 20px 5px 20px;
+  text-align: center;
+  margin-left: 80px;
+  font-weight: bold;
+}
+.somos .somos2 img {
+  width: 650px;
+  height: 350px;
+}
+.somos .somos3 img {
+  width: 700px;
+  height: 450px;
+}
+.somos .somos4 {
+  background-image: url(http://www.ovlab.pe/wp-content/uploads/2021/03/Perfil-de-Apoyo--1024x1024.jpg);
+  background-size: cover;
+  width: 650px;
+  height: 450px;
+}
+.somos .somos4 p {
+  color: #3f1b2e;
+  font-size: 130%;
+  padding: 200px 20px 5px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Especialidades {
+  background-image: url(https://static.miweb.padigital.es/var/m_6/69/69f/60927/882102-38730978_m.jpg?v=7.3.45008.2);
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+}
+.Especialidades h3 {
+  padding-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.Especialidades p {
+  margin-left: 80px;
+  font-size: 120%;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  body .header {
+    width: 90%;
+    margin: auto;
+  }
+
+  #contacto {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    margin-left: 1px;
+    color: #929191;
+    font-size: 80%;
+  }
+
+  .contacto1 {
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+  }
+
+  .contacto2 {
+    margin-top: 5px;
+    margin-right: 1px;
+    margin-left: 1px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .contacto2 img {
+    width: 18px;
+    height: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .contacto2 a:hover {
+    background-color: #f8f8f7;
+    padding: 10px;
+  }
+
+  #menu {
+    background-color: white;
+    padding-left: 4px;
+  }
+
+  #menu a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  }
+
+  #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #menu ul li {
+    display: inline-block;
+  }
+
+  #menu ul li a {
+    color: #929191;
+    display: block;
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+
+  #menu ul li a:hover {
+    background-color: rgba(110, 236, 162, 0.596);
+  }
+
+  .Domicilio {
+    color: white;
+    width: 614px;
+    height: 35vh;
+    text-align: center;
+    padding-top: 30px;
+    background-image: url(https://irp-cdn.multiscreensite.com/290518f0/DESKTOP/jpg/1624224-cieb-laboratorio-de-analisis-clinicos-lab2.jpg);
+    background-size: cover;
+    margin-top: 5px;
+  }
+
+  .recom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 700px;
+    height: 250px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  .recom h3 {
+    color: #929191;
+  }
+
+  .pie4 {
+    padding-left: 50px;
+    margin-top: 100px;
+    width: 400px;
+  }
+
+  .resultados {
+    width: 700px;
+  }
+
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 650px;
+    margin-top: 30px;
+    margin-bottom: 690px;
+    margin-left: 70px;
+  }
+  .horarios .horarios2 img {
+    width: 551px;
+  }
+  .horarios .horarios3 img {
+    width: 551px;
+  }
+
+  .somos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 700px;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 490px;
+    margin-left: 20px;
+  }
+  .somos .somos1 p {
+    color: #929191;
+    font-size: 120%;
+    padding: 70px 20px 5px 20px;
+    text-align: center;
+  }
+  .somos .somos2 {
+    background-image: url(https://www.infobioquimica.com/new/wp-content/uploads/2016/08/ejercicioprofesional-696x464.jpg);
+    background-size: cover;
+  }
+  .somos .somos3 {
+    background-image: url(https://st4.depositphotos.com/19350832/i/600/depositphotos_234939210-stock-photo-set-chemical-tube-development-pharmacy.jpg);
+    background-size: cover;
+  }
+  .somos .somos4 p {
+    color: #929191;
+    font-size: 120%;
+    padding: 140px 20px 5px 20px;
+    text-align: center;
+  }
+
+  .calidad {
+    width: 750px;
+  }
+
+  .obras {
+    width: 750px;
+    margin-left: 10px;
+    padding-left: 45x;
+  }
+
+  .obras1 {
+    padding-top: 20px;
+  }
+  .obras1 img {
+    width: 650px;
+  }
+
+  .obras2 {
+    padding-top: 20px;
+  }
+  .obras2 img {
+    width: 650px;
+  }
+
+  .obras3 {
+    padding-top: 20px;
+  }
+  .obras3 img {
+    width: 650px;
+  }
+
+  .obras4 {
+    padding-top: 20px;
+  }
+  .obras4 img {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body .header {
+    width: 100%;
+    margin: auto;
+  }
+
+  .titulopadre {
+    height: 240px;
+  }
+  .titulopadre .cajatitulo {
+    margin-top: 150px;
+    width: 130px;
+  }
+  .titulopadre .cajatituloimagen img {
+    margin-top: 80px;
+  }
+
+  #contacto {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 30px;
+    text-align: start;
+    margin-left: 1px;
+    color: #929191;
+    font-size: 70%;
+  }
+
+  .contacto1 {
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-weight: bold;
+  }
+
+  .contacto2 {
+    margin-top: 5px;
+    margin-right: 1px;
+    margin-left: 110px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .contacto2 img {
+    width: 18px;
+    height: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .contacto2 a:hover {
+    background-color: #f8f8f7;
+    padding: 10px;
+  }
+
+  #menu {
+    background-color: white;
+    padding-left: 4px;
+  }
+
+  #menu a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  }
+
+  #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #menu ul li {
+    display: inline-block;
+  }
+
+  #menu ul li a {
+    color: #929191;
+    display: block;
+    padding: 1px 3px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-size: 60%;
+  }
+
+  #menu ul li a:hover {
+    background-color: rgba(110, 236, 162, 0.596);
+  }
+
+  .Domicilio {
+    color: white;
+    width: 387px;
+    height: 35vh;
+    text-align: center;
+    padding-top: 30px;
+    background-image: url(https://irp-cdn.multiscreensite.com/290518f0/DESKTOP/jpg/1624224-cieb-laboratorio-de-analisis-clinicos-lab2.jpg);
+    background-size: cover;
+    margin-top: 5px;
+  }
+
+  .grilla p {
+    margin-top: 20px;
+  }
+
+  .recom {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    margin-left: 15px;
+    margin-bottom: 300px;
+  }
+  .recom h3 {
+    color: #929191;
+  }
+  .recom .recom1 img {
+    margin-left: 150px;
+  }
+  .recom .recom2 img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .pie4 {
+    padding-left: 50px;
+    margin-top: 100px;
+    width: 400px;
+  }
+
+  .resultados {
+    width: 500px;
+  }
+
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 650px;
+    margin-top: 30px;
+    margin-bottom: 690px;
+    margin-left: 1px;
+  }
+  .horarios .horarios2 img {
+    width: 551px;
+  }
+  .horarios .horarios3 img {
+    width: 551px;
+  }
+
+  .somos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 450px;
+    height: 650px;
+    margin-top: 30px;
+    margin-bottom: 490px;
+    margin-left: 2px;
+  }
+  .somos .somos1 p {
+    color: #929191;
+    font-size: 120%;
+    padding: 70px 20px 5px 20px;
+    text-align: center;
+  }
+  .somos .somos2 {
+    background-image: url(https://www.infobioquimica.com/new/wp-content/uploads/2016/08/ejercicioprofesional-696x464.jpg);
+    background-size: cover;
+  }
+  .somos .somos3 {
+    background-image: url(https://st4.depositphotos.com/19350832/i/600/depositphotos_234939210-stock-photo-set-chemical-tube-development-pharmacy.jpg);
+    background-size: cover;
+  }
+  .somos .somos4 p {
+    color: #929191;
+    font-size: 120%;
+    padding: 140px 20px 5px 20px;
+    text-align: center;
+  }
+
+  .calidad {
+    width: 480px;
+  }
+
+  .obras {
+    width: 480px;
+    margin-left: 10px;
+  }
+
+  .obras1 {
+    padding-top: 20px;
+  }
+  .obras1 img {
+    width: 450px;
+  }
+
+  .obras2 {
+    padding-top: 20px;
+  }
+  .obras2 img {
+    width: 450px;
+  }
+
+  .obras3 {
+    padding-top: 20px;
+  }
+  .obras3 img {
+    width: 450px;
+  }
+
+  .obras4 {
+    padding-top: 20px;
+  }
+  .obras4 img {
+    width: 450px;
+  }
+}

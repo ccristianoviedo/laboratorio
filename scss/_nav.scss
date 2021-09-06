@@ -1,62 +1,81 @@
-.recom{
-        display: flex;
-        flex-direction: row;
-        width: 900px;
-        height: 250px;
-        margin-left: 90px;
-        margin-bottom: 100px;
+.recom {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 200px;
+    font-family: 'Roboto', sans-serif;
+    h3 {
+        color: white;
+    }
+    .recom2 {
+        border-right: white solid;
+        padding-right: 110px;
+        background-color: rgb(17, 17, 17);
+        width: 49%;
+        padding-top: 30px;
+        border-bottom: white solid;
         h3 {
-            color: rgb(146, 145, 145);;
+            color:orangered;
         }
-        
-}
-.recom1 {
-    width: 200px;
-    height: 100px;
-    
-}
-.recom1 img{
-    margin-bottom: 180px;
-    margin-left: 50px;
-    width: 150px;
-    height: 250px;
-    border-radius: 70%;
-    overflow: hidden;
-    
-    border-bottom: rgb(146, 145, 145)solid;
-
-}
-.recom3 img{
-    margin-left: 150px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border-bottom: rgb(146, 145, 145)solid;
-
-}
-.recom2 p {
+        p{
+        margin-bottom: 100px;
+        color: gray;;
+        margin-left: 45px;
+        padding-right: 30px;
+        margin-top: 10px;
+        height: 100px;
+        text-align: justify;
+        font-size: 80%;
+        }
+        h3 {
+        margin-left: 250px;
+        }
+    }
+    .recom4 {
+    padding-left: 70px;
+    background-color: orangered;
+    width: 51%;
+    padding-top: 30px;
+    p{
     margin-bottom: 100px;
-    color: rgb(146, 145, 145);
-    margin-left: 35px;
-    margin-top: 30px;
-    width: 450px;
+    color: white;
+    width: 550px;
+    margin-left: 10px;
+    margin-top: 10px;
     height: 100px;
     text-align: justify;
-    font-size: 140%;
+    font-size: 80%;    
     }
-.recom2 h3 {
-    margin-left: 30px;
- }
-.recom4  p{
-    margin-bottom: 100px;
-    color: rgb(146, 145, 145);
-    margin-left: 250px;
-    margin-top: 30px;
-    width: 450px;
-    height: 100px;
-    text-align: justify;
-    font-size: 140%;    
+    h3 {
+    margin-left: 220px;
     }
-.recom4 h3 {
-   margin-left: 250px;
+    }
 }
+.menumedio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background : rgb(17, 17, 17);
+    margin-bottom: 0px;
+    .cajaturno {
+        width: 400px;
+        height: 500px;
+        padding-top: 50px;
+        padding-left: 85px;
+        margin-left: 15px;
+        img {
+            width: 314px;
+            height: 150px;
+        }
+        .card-body{
+            color: white;
+            background: rgb(17, 17, 17);
+            height: 220px;
+        }
+        .btn {
+            background: orangered;
+        }
+    }
+    
+}
+ 

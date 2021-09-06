@@ -13,91 +13,80 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="contenedor">
-
-            <div class="titulopadre">
-                <div class="cajatituloimagen">
-                    <img src="img/logo wc2.jpg" alt="imagenes de virus" width="100px" height="100px">
-                </div>
-                
-                <div class="cajatitulo">
-                   <h1>Laboratorios</h1>
-                </div>
-                <div id="contacto">
-                   
-                    <div class="contacto1">infolaboratorio@gmail.com</div>
-                   
-                    <div class="contacto1">0351453653/54</div>
-                   
-                    <div class="contacto2"><a href="https://www.facebook.com/"><img src="img/facebook.jpg" alt=""></a></div>
-                    <div class="contacto2"><a href="https://www.instagram.com"><img src="img/instagram.png" alt=""></a></div>
-                    <div class="contacto2"><a href="https://twitter.com/"><img src="img/tweeter.png" alt=""></a></div>
-                </div>
-               
-    
-                         
-            </div>
+  <header>
+    <div class="barracontacto">
+      <div class="mail"><a href="#">infolaboratorio@gmail.com</a></div>
+      <div class="telefono"><a href="#">0351453653/54</a></div>
+      <div class="contacto2"><a href="https://www.facebook.com/"><img src="img//Facebook2.png" alt=""></a></div>
+      <div class="contacto2"><a href="https://www.instagram.com"><img src="img/instagram1.png" alt=""></a></div>
+      <div class="contacto2"><a href="https://twitter.com/"><img src="img/twitter-bird-logo.png.png" alt=""></a></div>
+    </div> 
+    <div class="titulopadre">
+      <div class="cajatituloimagen">
+        <img src="img/Logo titulo7.png" alt="imagen logo laboratorio" width="100px" height="100px">
+      </div>             
+      <div id="menu">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="Resultados.html">RESULTADOS</a></li>
+          <li><a href="Horariosysedes.html">HORARIOS Y CENTROS DE ATENCION</a></li>             
+          <li><a href="Obrassociales.html">Obras Sociales</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="turnos">
+      <div class="presentacion1">
+        <h2>Programa tu Turno Online</h2>
+        <ul>
+          <li>Estimado paciente,
+            Nuestra modalidad de atención es por turno online. Ante la 
+            situación de emergencia sanitaria, se asigna en una determinada 
+            franja horaria, y acorde a la demanda del servicio. Te pedimos disculpas 
+            si la espera se prolonga fuera de lo habitual.
+            ¡Muchas gracias!
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="form1">
+    <form class="form2">
+      <h3>Turnos</h3>
+      <label>Nombre</label>
+      <input type="text" placeholder="Escribe tu Nombre"/>
+      <label>Apellido</label>
+      <input type="text"placeholder="Apellido"/>
+      <label>Email</label>
+      <input type="email"placeholder="Email"/>
+      <label>Dia del Turno</label>
+      <input type="date"placeholder="date"/>
+      <Label>Obra Social</Label>
+      <select name="" id="" class="btn btn-outline-secondary"> class="dropdown-toggle">
+          <option value="Particular">Particular</option>
+          <option value="Osmedica">Osmedica</option>
+          <option value="Osde">Osde</option>
+          <option value="Medife">Medife</option>
+          <option value="Apross">Apross</option>
+          <option value="PAMI">PAMI</option>
+          <option value="Cs Economicas">Cs Economicas</option>
+          <option value="DASPU">DASPU</option>
+          <option value="UOM">UOM</option>
+          <option value="Otras">Otras</option>
+      </select>
+      <br>
+      <label>Comentarios</label>
+      <br>
+      <textarea name="Comentarios" id="" cols="53" rows="7"></textarea>
+      <button type="button" class="btn btn-light">Enviar</button>
+      <br>
+      <input type="reset"class="btn btn-light" value="Borrar Informacion"> 
+    </form>
+    <div class="form3">
+      <img src="img/imagenauto.jpeg" alt="imagen auto extracciones">
+    </div>
+  </section>
         
-            <div id="menu">
-                <ul>
-                    <li><a href="Index.html">INICIO</a></li>
-                    <li><a href="Resultados.html">RESULTADOS</a></li>
-                    <li><a href="Horariosysedes.html">HORARIOS Y CENTROS DE ATENCION</a></li>             
-                    <li><a href="Quienessomos.html">NUESTRO LABORATORIO</a></li>
-                </ul>
-            </div>
-    
-        </header>
-        <section class="form1">
-        
-            <form>
-                <h3>Turnos</h3>
-                <br>
-                <label>Nombre</label>
-                <input type="text" placeholder="Escribe tu Nombre"/>
-                <br>
-                <br>
-                <label>Apellido</label>
-                <input type="text"placeholder="Apellido"/>
-                <br>
-                <br>
-                <label>Email</label>
-                <input type="email"placeholder="Email"/>
-                <br>
-                <br>
-                <label>Fecha</label>
-                <input type="date"placeholder="date"/>
-                <br>
-                <br>
-                <br>
-                <Label>Obra Social</Label>
-                <select name="" id="">
-                    <option value="Particular">Particular</option>
-                    <option value="Osmedica">Osmedica</option>
-                    <option value="Osde">Osde</option>
-                    <option value="Medife">Medife</option>
-                    <option value="Apross">Apross</option>
-                    <option value="Swiss medical ">Swiss medical</option>
-                </select>
-                <br>
-                <br>
-                <label></label>
-                <br>
-        
-                <textarea name="Comentarios" id="" cols="30" rows="10"></textarea>
-                <br>
-                   
-                <br>
-                <br>
-                <input type="submit" name="Enviar Informacion">
-                <br>
-                <br>
-        
-                <input type="reset" value="Borrar Informacion"> 
-        
-        
-            </form> 
-    </section>
+            
         
        
         <footer>

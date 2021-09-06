@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Este es el sitio web de el laboratorio wc donde se encuentra la informacion
+    de contacto, turnos y cobertura de obras sociales">
+    <meta name="keywords" content="laboratorio, extraccion, sangre, analisis, clinicos, salud">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -10,53 +13,261 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="contenedor">
-        <header>
-            <div class="titulopadre">
-              <div class="cajatituloimagen">
-                <img src="img/logo wc2.jpg" alt="imagenes de virus" width="100px" height="100px">
-              </div>
-                        
-              <div class="cajatitulo">
-                <h1>Laboratorios</h1>
-              </div>
-              <div id="contacto">                   
-                <div class="contacto1">infolaboratorio@gmail.com</div>            
-                <div class="contacto1">0351453653/54</div>
-                <div class="contacto2"><a href="https://www.facebook.com/"><img src="img/facebook.jpg" alt=""></a></div>
-                <div class="contacto2"><a href="https://www.instagram.com"><img src="img/instagram.png" alt=""></a></div>
-                <div class="contacto2"><a href="https://twitter.com/"><img src="img/tweeter.png" alt=""></a></div>
+  <header>
+    <div class="barracontacto">
+      <div class="mail"><a href="#">infolaboratorio@gmail.com</a></div>
+      <div class="telefono"><a href="#">0351453653/54</a></div>
+      <div class="contacto2"><a href="https://www.facebook.com/"><img src="img//Facebook2.png" alt=""></a></div>
+      <div class="contacto2"><a href="https://www.instagram.com"><img src="img/instagram1.png" alt=""></a></div>
+      <div class="contacto2"><a href="https://twitter.com/"><img src="img/twitter-bird-logo.png.png" alt=""></a></div>
+    </div> 
+    <div class="titulopadre">
+      <div class="cajatituloimagen">
+        <img src="img/Logo titulo7.png" alt="imagen logo laboratorio" width="100px" height="100px">
+      </div>             
+      <div id="menu">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="Resultados.html">RESULTADOS</a></li>
+          <li><a href="Horariosysedes.html">HORARIOS Y CENTROS DE ATENCION</a></li>             
+          <li><a href="Obrassociales.html">Obras Sociales</a></li>
+        </ul>
+      </div>
+    </div> 
+    <div class="presentacionobras">
+      <h2>Obras Sociales </h2>
+      <p>Verifica tu Obra Social</p>
+    </div>
+  </header>
+  <nav>
+    <div class="obrasaclaracion">
+      <p>ACLARACIÓN: eventualmente, la modalidad de manejo en materia de 
+        autorizaciones puede modificarse sin preaviso, debido a cambios de convenios 
+        y actualizaciones con las Obras Sociales. Sepa disculpar las molestias 
+        ocasionadas.
+       </p>
+     </div>
+  </nav>
+  <Section class="obras">
+    <div class="obras1">
+      <h3>Obras Sociales atendidas</h3> 
+      <ul>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            APROSS (Administración Provincial del Seguro de Salud)
+          </button>                   
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">APROSS (Administración Provincial del Seguro de Salud)</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>REQUISITOS:Pedido Médico: nombre del afiliado - nombre y número de afiliado de la obra social - listado de estudios - diagnóstico
+                    (no puede decir sólo control) - fecha - firma - sello del profesional solicitante.</li>
+                    <li>Carnet de la Obra Social y Documento: para acreditar identidad del afiliado</li>
+                    <li>Coseguro: valor sujeto a lo solicitado en el pedido médico</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
               </div>
-                
-              <div id="menu">
-                <ul>
-                  <li><a href="Index.html">INICIO</a></li>
-                  <li><a href="Resultados.html">RESULTADOS</a></li>
-                  <li><a href="Horariosysedes.html">HORARIOS Y CENTROS DE ATENCION</a></li>             
-                  <li><a href="Quienessomos.html">NUESTRO LABORATORIO</a></li>
-                </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            DASPU
+          </button>                   
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel1">DASPU</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>REQUISITOS:Pedido Médico: nombre del afiliado - nombre y número de afiliado de la obra social - listado de estudios - diagnóstico
+                    (no puede decir sólo control) - fecha - firma - sello del profesional solicitante.</li>
+                    <li>Carnet de la Obra Social y Documento: para acreditar identidad del afiliado</li>
+                    <li>Coseguro: el paciente abona el 20% del valor total de los estudios. Precio sujeto a lo indicado por Daspu en la autorización</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
               </div>
-            </div> 
-        </header>
-
-        <Section class="obras">
-            <h3>Atendemos Obras Sociales</h3>
-            <div class="obras1">
-                <img src="img/obras sociales 1.jpg" alt="">
             </div>
-            <div class="obras2">
-                <img src="img/obras sociales 2.jpg" alt="">
+          </div>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            GALENO
+          </button>                   
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel2">GALENO</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>REQUISITOS:Pedido Médico: nombre del afiliado - nombre y número de afiliado de la obra social - listado de estudios - diagnóstico
+                    (no puede decir sólo control) - fecha - firma - sello del profesional solicitante.</li>
+                    <li>Carnet de la Obra Social y Documento: para acreditar identidad del afiliado</li>
+                    <li>Autorización: tenga en cuenta que algunas prácticas de alta complejidad pueden requerir autorización previa de Galeno </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
             </div>
-            <div class="obras3">
-                <img src="img/obras sociales3.jpg" alt="">
+          </div>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            MEDIFE
+          </button>                   
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel3">MEDIFE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>REQUISITOS:Pedido Médico: nombre del afiliado - nombre y número de afiliado de la obra social - listado de estudios - diagnóstico
+                    (no puede decir sólo control) - fecha - firma - sello del profesional solicitante.</li>
+                    <li>Carnet de la Obra Social y Documento: para acreditar identidad del afiliado</li>
+                    <li>Autorización: se solicita en el laboratorio el mismo día que realiza los estudios</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                
+                </div>
+              </div>
             </div>
-            <div class="obras4">
-                <img src="img/obras sociales5.jpg" alt="">
+        </div>
+      </li>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+          OSDE
+          </button>                   
+          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel4">OSDE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>REQUISITOS:Pedido Médico: nombre del afiliado - nombre y número de afiliado de la obra social - listado de estudios - diagnóstico
+                    (no puede decir sólo control) - fecha - firma - sello del profesional solicitante.</li>
+                    <li>Carnet de la Obra Social y Documento: para acreditar identidad del afiliado</li>
+                    <li>Aclaración: algunas prácticas pueden requerir autorización previa de OSDE. Consulte el listado de las mismas</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>                
+                </div>
+              </div>
             </div>
-            
-        </Section>
-        
+          </div>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+            SANCOR SALUD
+          </button>                   
+          <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel6">SANCOR SALUD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>REQUISITOS:Pedido Médico: nombre del afiliado - nombre y número de afiliado de la obra social - listado de estudios - diagnóstico
+                    (no puede decir sólo control) - fecha - firma - sello del profesional solicitante.</li>
+                    <li>Carnet de la Obra Social y Documento: para acreditar identidad del afiliado</li>
+                    <li>Aclaración: algunas prácticas pueden requerir autorización previa de OSDE. Consulte el listado de las mismas</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+          OSPECOR
+          </button>                   
+          <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel6">OSPECOR</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>REQUISITOS:Pedido Médico: nombre del afiliado - nombre y número de afiliado de la obra social - listado de estudios - diagnóstico
+                    (no puede decir sólo control) - fecha - firma - sello del profesional solicitante.</li>
+                    <li>Carnet de la Obra Social y Documento: para acreditar identidad del afiliado</li>
+                    <li>Autorización: todas las prácticas requieren autorización y deberá ser previamente gestionada por el afiliado en la obra social.</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+            Swiss Medical
+          </button>                   
+          <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel7">Swiss Medical</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>REQUISITOS:Pedido Médico: nombre del afiliado - nombre y número de afiliado de la obra social - listado de estudios - diagnóstico
+                    (no puede decir sólo control) - fecha - firma - sello del profesional solicitante.</li>
+                    <li>Carnet de la Obra Social y Documento: para acreditar identidad del afiliado</li>
+                    <li>Autorización: se solicita en el laboratorio el mismo día que realiza el estudio</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="obras2"> 
+      <img src="img/obras23.jpg" alt="obras sociales">
+    </div>       
+  </Section>
+       
+    
         <footer>
             <section class="pie">
                 <div class="pie1">

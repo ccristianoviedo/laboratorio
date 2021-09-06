@@ -2,38 +2,65 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 1150px;
+    width: 100%;
     height: 850px;
-    margin-top: 30px;
-    margin-bottom: 90px;
-    margin-left: 90px;
+    margin-top: 230px;
         .somos1 {
-            
+            width: 695px;
+            height: 350px;
+            background-size: cover;
+            background-image: url(https://irp-cdn.multiscreensite.com/99c815e4/DESKTOP/png/1425933-graciela-rivarola-laboratorio-banner-1.png);
             p {
-                color: rgb(146, 145, 145);;;
-                font-size: 120%;
+                color:  rgb(63, 27, 46);
+                font-size: 130%;
                 padding: 70px 20px 5px 20px;
                 text-align: center;
+                margin-left: 80px;
+                font-weight: bold;
             }
             
         }
-        .somos2 {
-            background-image: url(https://www.infobioquimica.com/new/wp-content/uploads/2016/08/ejercicioprofesional-696x464.jpg);
-            background-size: cover;
+        .somos2 img{
+            width: 650px;
+            height: 350px;
            
         }
-        .somos3 {
-            background-image: url(https://st4.depositphotos.com/19350832/i/600/depositphotos_234939210-stock-photo-set-chemical-tube-development-pharmacy.jpg);
-            background-size: cover;
+        .somos3 img{
+            width: 700px;
+            height: 450px;
         }
         
         .somos4 {
+            background-image: url(http://www.ovlab.pe/wp-content/uploads/2021/03/Perfil-de-Apoyo--1024x1024.jpg);
+            background-size: cover;
+            width: 650px;
+            height: 450px;
             p {
-                color: rgb(146, 145, 145);;;
-                font-size: 120%;
-                padding: 140px 20px 5px 20px;
+                color: rgb(63, 27, 46);
+                font-size: 130%;
+                padding: 200px 20px 5px 20px;
                 text-align: center;
+                font-weight: bold;
             }
         }
+}
+.Especialidades{
+    background-image:url(https://static.miweb.padigital.es/var/m_6/69/69f/60927/882102-38730978_m.jpg?v=7.3.45008.2);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+
+    h3 {
+        padding-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+    p {
+        margin-left: 80px;
+        font-size: 120%;
+        text-align: center;
+        font-weight: bold;
+    }
 }
 

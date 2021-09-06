@@ -1,47 +1,103 @@
-.horarios{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    width: 1150px;
-    height: 650px;
-    margin-top: 30px;
-    margin-bottom: 90px;
-    margin-left: 70px;
-        .horarios1 {
-            background-image: linear-gradient(to left,rgba(108, 200, 223, 0.705),rgb(84, 142, 218));
-            h3{
-                color: white;
-                margin-top: 100px;
+header {
+    .mapasede1 {
+        display: flex;
+        flex-direction: row;  
+        width: 90%;
+        height: 440px;
+        background-color: rgb(58, 57, 57);
+        margin-left: 80px;
+        margin-top:100px;
+        .presentacion1 {
+            margin: 100px 1px 10px 20px;
+            width: 50%;
+            h2 {
+                font-size: 280%;
+                font-weight: bolder;
+                padding-left: 205px;
+                margin-bottom: 20px;
+                color: orangered;
+                width: 600px;
             }
-            p {
-                color: white;
-                font-size: 120%;
-                padding: 10px 20px 5px 20px;
+            ul li{
+                font-size: 150%;
                 text-align: center;
+                width: 650px;
+                list-style: none;
+                color: gray;
+                margin-top:20px;                
             }
-            
-        }
-        
-        .horarios3 {
-            img{
-                width:580px;
-                height: 350px;
-        }
-            
-        }
-        
-        .horarios4 {
-            background-image: linear-gradient(to left,rgba(108, 200, 223, 0.705),rgb(84, 142, 218));
-            h3{
-                color: white;
-                margin-top: 70px;
-            }
-            p {
-                color: white;
-                font-size: 120%;
-                padding: 10px 20px 5px 20px;
-                text-align: center;
-            }
+        }   
+        .mapa1 iframe {
+            padding: 50px 40px 20px 80px;
+            width: 600px;
+            height: 450px;
         }
     }
+}
+.fotossedecentral {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(58, 57, 57);
+    .fotossedecentral1 {
+        margin-left:150px;
+        margin-right: 150px;
+        .carousel-inner img{
+            width: 500px;
+            height: 500px;
+            
+        }
+    }
+}
+#titulosedes2 {
+    width:100%;
+    height: 60px;
+    background-color: orangered;
+    h3{
+        padding: 10px 20px 20px 440px;
+        font-size: 200%;
+        color: white;
+    }
+}
+.horariosa {
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    height: 2000px;
+    .horarios{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 1fr);;
+        grid-column-gap:10px;
+        grid-row-gap:10px;
+        width: 80%;
+        height: 1550px;
+        padding-top: 70px;
+        margin-bottom: 90px;
+        margin-top: 0px;
+        margin-left: 100px;
+            .horarios1 {
+                background-color: rgb(58, 57, 57);
+                h3{
+                    color:orangered;
+                    margin-top: 70px;
+                    padding-left: 180px;
+                }
+                p {
+                    color:gray;
+                    font-size: 130%;
+                    padding: 10px 20px 5px 20px;
+                    text-align: center;
+                }
+            }
+            .horarios2 img{
+                width:100%;
+                height: 300px;
+            }
+            .horarios3 Iframe{
+                width:100%;
+                height: 300px;
+            }
+            
+    }
+}
 
+       

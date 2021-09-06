@@ -1,45 +1,103 @@
 footer{
     width: 100%;
-    background-image: url(https://concepto.de/wp-content/uploads/2018/09/bioquimica-e1536671209115.jpg);
-    background-size: cover;
-}
-.pie {
+    margin-top: 450px;
+    background : rgb(31, 30, 30);
+    color: white;
+    .pie {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 210px;
     font-family: 'Roboto', sans-serif;
-    font-size: 125%;
-    
-    }
+    font-size: 80%;    
+        .pie1 {
+        width: 130px;
+        padding-top: 20px;
+        border-right: white solid;
+            img {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin-left: 10px;
+            overflow: hidden;
+            }
+        }
+        .pie2{
+            border-left: white solid;
+             p{
+            margin-left: 10px;
+            width: 210px;
+            margin-top: 40px;
+            margin-left: 90px;
+            text-align: center;
+            font-size: 85%;
+            }
+        }
+        .pie3 {  
+        display: flex;   
+        flex-direction: row;
+        width: 100px;
+        padding-top: 85px;
+        padding-left: 280px;
+        margin-right: 5px;
+            img {
+                width: 30px;
+                height: 30px;
+                margin-left: 30px;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+        }
+        .pie4 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        width: 100px;
+        margin-left: 90px;
+            .mail{
+                margin-right: 15px;
+                color: white;
+            }
+        }
+        .pie5{
+        justify-content: start;
+        font-size: 80%;
+        width: 140px;
+        font-weight: bold;
+        padding-bottom: 280px;
+        padding-left: 10px;           
+            #menu1 {
+                background :rgb(31, 30, 30);
+                margin-left: 10px;
+                margin-top: 10px;       
+            } 
+            #menu1 a{
+                text-decoration: none;
+                font-family: 'Roboto', sans-serif;
+                font-size: 100%;   
+                }
+            #menu1 ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            #menu1 ul li{
+                display: inline-block;
 
-.pie1 {
-    padding-top: 30px;
-    padding-left: 30px;
-}
-.pie1 img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: 50px
-}
-.pie2 p{
-    margin-left: 10px;
-    width: 300px;
-    margin-top: 80px;
-    margin-left: 100px;
-    text-align: center;
+            }
+            #menu1 ul li a{
+                color: white;
+                display: block;
+                padding: 15px 15px;
+                justify-content: space-evenly;
+                text-decoration: none;
+            }
+            
+            #menu1 ul li a:hover{
+                background : rgb(77, 73, 73);
+                color: white;
+                
+                
+            }
+        }
     }
-
-.pie3 {     
-    width: 200px;
-    padding-top: 60px;
-    padding-left: 350px;
-    margin-right: 5px;
-}
-.pie4 {
-    padding-left: 200px;
-    margin-top: 120px;
-    width: 100px;
-    
 }

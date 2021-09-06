@@ -1,35 +1,101 @@
+.presentacionresultados {
+    h2 {
+        padding: 110px 40px 10px 400px;
+        font-size: 300%;
+        font-weight: bolder;
+        color: orangered;
+        width: 1000px;
+    }
+    p { 
+        margin: 70px 40px 10px 750px;
+        font-size: 150%;
+        text-align: center;
+        width: 550px;
+        color: black;    
+    }
+}
 .resultados{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 100%;
-    height: 600px;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    height: 335px;
         .resultados1 {
-            background-image: linear-gradient(to left,rgba(108, 200, 223, 0.705),rgb(84, 142, 218));
+            background-color: rgb(17, 17, 17);
+            height: 335px;
             h3{
-                color: white;
-                margin-top: 160px;
+                color: orangered;
+                margin-top: 70px;
+                padding-left: 250px;
             }
             p {
-                color: white;
-                font-size: 150%;
-                padding: 10px 20px 5px 20px;
+                color: gray;
+                font-size: 130%;
+                padding: 30px 20px 5px 90px;
                 text-align: center;
+                width: 600px;
             }
-            
         }
         .resultados2{
+            background-color: rgb(31, 30, 30);
             color:rgb(146, 145, 145);;
-            padding-top: 100px;
+            padding-top: 80px;
             padding-left: 20px;
             padding-right: 30px;
+            height: 335px;
             label{
                 font-size: 140%;
             }
+            .btn {
+                background-color: orangered;
+                color: white;
+                padding-top: 15px;
+                width: 150px;
+            }
         }
+}
+nav {
+    background-color: rgb(31, 30, 30);
+    .tituloanalisis{
+        height: 250px;
+        width: 100%;
+        h3 {
+            color:gray;
+            padding: 100px 10px 10px 450px;
+            font-size: 250%;
+        }
+    }
+    .informe {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-column-gap:10px;
+        grid-row-gap:10px;
+        height: 1250px;
+        width: 80%;
+        margin-left: 150px;
+        .informe1 {
+            height: 280px;
+            background-color: rgb(17, 17, 17);
+            width: 100%;
+            h3 {
+                color: orangered;
+                margin-top: 20px;
+                padding-left: 150px;
+            }
+            ul li {
+                color: gray;
+                padding:10px 20px 2px 20px;
+                width: 500px;
+                font-size: 90%;
+                list-style: none;
+            }
+        }
+        .informe2 img {
+            width: 100%;
+            height: 280px;
+        }       
+    }
 }
 
     

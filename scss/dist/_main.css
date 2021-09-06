@@ -1,87 +1,40 @@
 main {
-  width: 95%;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 30px;
-}
-main h5 {
-  font-size: 300%;
-}
-
-.grilla {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  height: 450px;
-  margin-top: 5px;
-  margin-bottom: 100px;
-  grid-gap: 1px;
-  font-family: "Roboto", sans-serif;
-  background-image: url(https://elmedicointeractivo.com/wp-content/uploads/2020/03/laboratorio-700x307.png);
-  background-size: cover;
-}
-.grilla p {
-  color: white;
-  margin-top: 90px;
-  margin-left: 130px;
-  font-size: 400%;
-}
-
-.hijo {
-  padding-top: 20px;
-}
-
-.hijo a {
-  color: #929191;
-  text-decoration: none;
-  letter-spacing: 5px;
-  font-weight: bold;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-bottom: 30px;
-  margin-left: 650px;
-  margin-bottom: 350px;
-}
-
-.hijo img {
-  width: 250px;
-  height: 300px;
-  padding-bottom: 100px;
-  border-radius: 80%;
-  overflow: hidden;
-}
-
-.carousel-inner img {
-  height: 600px;
-}
-
-.carousel-inner {
-  font-size: 100%;
-}
-
-.Domicilio {
-  color: white;
   width: 100%;
-  height: 450px;
-  padding-top: 30px;
-  background-image: url(https://irp-cdn.multiscreensite.com/290518f0/DESKTOP/jpg/1624224-cieb-laboratorio-de-analisis-clinicos-lab2.jpg);
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+  height: 460px;
+}
+main .Domicilio {
+  color: orangered;
+  width: 49.5%;
+  background-color: #1f1e1e;
   background-size: cover;
-  margin-top: 5px;
 }
-.Domicilio h2 {
-  font-size: 300%;
-  padding-top: 60px;
-  padding-left: 180px;
+main .Domicilio h2 {
+  font-size: 170%;
+  padding-top: 50px;
+  padding-left: 45px;
+  width: 550px;
 }
-.Domicilio h5 {
-  padding-left: 550px;
-  padding-top: 15px;
+main .Domicilio p {
+  padding-left: 45px;
+  padding-top: 35px;
+  color: gray;
+  font-size: 100%;
+  width: 550px;
 }
-.Domicilio img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-left: 950px;
-  margin-bottom: 50px;
+main .Domicilio button {
+  width: 300px;
+  height: 50px;
+  background-color: orangered;
+  font-size: 140%;
+  color: white;
+  margin-left: 300px;
+  margin-top: 45px;
+}
+main .grilla {
+  background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/areas-de-un-laboratorio-clinico-y-sus-funciones-2-1597173995.jpg);
+  background-size: cover;
+  width: 52%;
 }
