@@ -31,6 +31,22 @@ main{
             margin-left: 300px;
             margin-top: 45px;
         }
+        .offcanvas-header {
+            background-color: rgb(17, 17, 17);
+            width: 100%;
+            height: 80px;
+            h5 {
+                color: white;
+            }
+        }
+        .offcanvas-body {
+            background-color: orangered;
+            color:white;
+            p {
+                color: rgb(17, 17, 17);
+                font-size:130%;
+            }
+        }
     }
     .grilla {
         background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/areas-de-un-laboratorio-clinico-y-sus-funciones-2-1597173995.jpg);

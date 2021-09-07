@@ -33,6 +33,22 @@ main .Domicilio button {
   margin-left: 300px;
   margin-top: 45px;
 }
+main .Domicilio .offcanvas-header {
+  background-color: #111111;
+  width: 100%;
+  height: 80px;
+}
+main .Domicilio .offcanvas-header h5 {
+  color: white;
+}
+main .Domicilio .offcanvas-body {
+  background-color: orangered;
+  color: white;
+}
+main .Domicilio .offcanvas-body p {
+  color: #111111;
+  font-size: 130%;
+}
 main .grilla {
   background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/areas-de-un-laboratorio-clinico-y-sus-funciones-2-1597173995.jpg);
   background-size: cover;

@@ -19,7 +19,7 @@ header .barracontacto a {
 }
 header .barracontacto a:hover {
   background-color: orangered;
-  font-size: 350%;
+  font-size: 150%;
   color: white;
 }
 header .barracontacto .mail {
@@ -92,6 +92,7 @@ header #menu ul li a {
   padding: 10px 35px;
   justify-content: space-evenly;
   text-decoration: none;
+  font-size: 90%;
 }
 header #menu ul li a:hover {
   background: white;
@@ -160,6 +161,22 @@ main .Domicilio button {
   margin-left: 300px;
   margin-top: 45px;
 }
+main .Domicilio .offcanvas-header {
+  background-color: #111111;
+  width: 100%;
+  height: 80px;
+}
+main .Domicilio .offcanvas-header h5 {
+  color: white;
+}
+main .Domicilio .offcanvas-body {
+  background-color: orangered;
+  color: white;
+}
+main .Domicilio .offcanvas-body p {
+  color: #111111;
+  font-size: 130%;
+}
 main .grilla {
   background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/areas-de-un-laboratorio-clinico-y-sus-funciones-2-1597173995.jpg);
   background-size: cover;
@@ -168,7 +185,7 @@ main .grilla {
 
 footer {
   width: 100%;
-  margin-top: 450px;
+  margin-top: 0px;
   background: #1f1e1e;
   color: white;
 }
@@ -181,52 +198,51 @@ footer .pie {
 }
 footer .pie .pie1 {
   width: 130px;
-  padding-top: 20px;
-  border-right: white solid;
+  padding-top: 60px;
 }
 footer .pie .pie1 img {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
-  margin-left: 10px;
+  margin-left: 50px;
   overflow: hidden;
-}
-footer .pie .pie2 {
-  border-left: white solid;
 }
 footer .pie .pie2 p {
   margin-left: 10px;
-  width: 210px;
-  margin-top: 40px;
-  margin-left: 90px;
+  width: 240px;
+  margin-top: 60px;
+  margin-left: 10px;
   text-align: center;
-  font-size: 85%;
+  font-size: 110%;
+  color: gray;
 }
 footer .pie .pie3 {
   display: flex;
-  flex-direction: row;
-  width: 100px;
-  padding-top: 85px;
-  padding-left: 280px;
+  flex-direction: column;
+  width: 50px;
+  padding-top: 10px;
+  padding-left: 380px;
   margin-right: 5px;
 }
 footer .pie .pie3 img {
   width: 30px;
   height: 30px;
-  margin-left: 30px;
+  margin-left: 130px;
+  margin-top: 30px;
   border-radius: 50%;
   overflow: hidden;
 }
 footer .pie .pie4 {
   display: flex;
   flex-direction: row;
-  margin-top: 80px;
-  width: 100px;
+  margin-top: 70px;
+  width: 40px;
   margin-left: 90px;
 }
-footer .pie .pie4 .mail {
-  margin-right: 15px;
-  color: white;
+footer .pie .pie4 button {
+  color: gray;
+  height: 50px;
+  margin-left: 30px;
 }
 footer .pie .pie5 {
   justify-content: start;
@@ -255,14 +271,14 @@ footer .pie .pie5 #menu1 ul li {
   display: inline-block;
 }
 footer .pie .pie5 #menu1 ul li a {
-  color: white;
+  color: gray;
   display: block;
   padding: 15px 15px;
   justify-content: space-evenly;
   text-decoration: none;
 }
 footer .pie .pie5 #menu1 ul li a:hover {
-  background: #4d4949;
+  background: orangered;
   color: white;
 }
 
@@ -298,52 +314,48 @@ article .carousel-indicators {
   width: 350px;
   margin-left: 300px;
 }
+article .titulomedio {
+  width: 90%;
+  height: 100px;
+  background-color: #111111;
+  margin: 80px 20px 20px 50px;
+}
+article .titulomedio h3 {
+  font-size: 140%;
+  color: orangered;
+  padding: 20px 20px 20px 140px;
+}
 
 .somos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   width: 100%;
-  height: 850px;
-  margin-top: 230px;
+  height: 1150px;
+  background-color: #111111;
 }
 .somos .somos1 {
-  width: 695px;
-  height: 350px;
+  width: 100%;
+  height: 400px;
 }
-.somos .somos1 p {
+.somos .somos1 img {
+  width: 400px;
+  height: 400px;
+  padding: 130px 20px 20px 100px;
+}
+.somos .somos2 {
+  height: 50px;
+}
+.somos .somos2 p {
   color: gray;
-  font-size: 130%;
-  padding: 70px 20px 5px 20px;
+  font-size: 100%;
   text-align: center;
-  margin-left: 80px;
-  font-weight: bold;
-}
-.somos .somos2 img {
-  width: 650px;
-  height: 350px;
-}
-.somos .somos3 img {
-  width: 700px;
-  height: 450px;
-}
-.somos .somos4 {
-  background-image: url(http://www.ovlab.pe/wp-content/uploads/2021/03/Perfil-de-Apoyo--1024x1024.jpg);
-  background-size: cover;
-  width: 650px;
-  height: 450px;
-}
-.somos .somos4 p {
-  color: #3f1b2e;
-  font-size: 130%;
-  padding: 200px 20px 5px 20px;
-  text-align: center;
-  font-weight: bold;
+  width: 280px;
+  margin-left: 100px;
 }
 
 .Especialidades {
-  background-image: url(https://static.miweb.padigital.es/var/m_6/69/69f/60927/882102-38730978_m.jpg?v=7.3.45008.2);
-  background-size: cover;
+  background-color: #a7401a;
   width: 100%;
   height: 650px;
 }
@@ -423,7 +435,7 @@ article .carousel-indicators {
 }
 .menumedio .cajaturno {
   width: 400px;
-  height: 500px;
+  height: 700px;
   padding-top: 50px;
   padding-left: 85px;
   margin-left: 15px;
@@ -433,12 +445,18 @@ article .carousel-indicators {
   height: 150px;
 }
 .menumedio .cajaturno .card-body {
-  color: white;
+  color: gray;
   background: #111111;
-  height: 220px;
+  height: 450px;
 }
 .menumedio .cajaturno .btn {
   background: orangered;
+}
+.menumedio .cajaturno p {
+  padding-top: 5px;
+}
+.menumedio .cajaturno h5 {
+  padding-top: 20px;
 }
 
 header .turnos {
@@ -857,6 +875,87 @@ nav .informe .informe1 ul li {
 nav .informe .informe2 img {
   width: 100%;
   height: 280px;
+}
+
+header .turnos {
+  background-image: url(https://fmmaster.net/05-2021/resize_1622243907.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 440px;
+  background-color: #3a3939;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+header .turnos .presentacion1 {
+  margin: 100px 1px 10px 20px;
+  width: 50%;
+}
+header .turnos .presentacion1 h2 {
+  font-size: 300%;
+  font-weight: bolder;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  color: orangered;
+  width: 800px;
+}
+header .turnos .presentacion1 ul li {
+  font-size: 100%;
+  text-align: center;
+  width: 600px;
+  list-style: none;
+  color: white;
+  margin-top: 120px;
+  padding-top: 20px;
+  background-color: orangered;
+  height: 140px;
+}
+
+.form1 {
+  background-color: #3a3939;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.form1 .form2 {
+  color: azure;
+  width: 30%;
+  height: 900px;
+  padding-top: 40px;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 75px;
+  text-align: center;
+  text-align: start;
+}
+.form1 .form2 h3 {
+  color: orangered;
+  font-size: 200%;
+  padding-bottom: 5px;
+  padding-top: 80px;
+}
+.form1 .form2 label {
+  padding-right: 30px;
+  margin: 10px 10px 10px 10px;
+  font-size: 120%;
+}
+.form1 .form2 input {
+  width: 400px;
+}
+.form1 .form2 .btn {
+  margin: 5px 0px 10px 100px;
+  width: 200px;
+  background-color: orangered;
+  color: black;
+}
+.form1 .form3 img {
+  width: 800px;
+  height: 600px;
+  padding: 100px 30px 20px 200px;
 }
 
 @media screen and (max-width: 768px) {

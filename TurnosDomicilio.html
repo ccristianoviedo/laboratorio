@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Este es el sitio web de el laboratorio wc donde se encuentra la informacion
+    de contacto, turnos y cobertura de obras sociales">
+    <meta name="keywords" content="laboratorio, extraccion, sangre, analisis, clinicos, salud">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="barracontacto">
+      <div class="mail"><a href="#">infolaboratorio@gmail.com</a></div>
+      <div class="telefono"><a href="#">0351453653/54</a></div>
+      <div class="contacto2"><a href="https://www.facebook.com/"><img src="img//Facebook2.png" alt=""></a></div>
+      <div class="contacto2"><a href="https://www.instagram.com"><img src="img/instagram1.png" alt=""></a></div>
+      <div class="contacto2"><a href="https://twitter.com/"><img src="img/twitter-bird-logo.png.png" alt=""></a></div>
+    </div> 
+    <div class="titulopadre">
+      <div class="cajatituloimagen">
+        <img src="img/Logo titulo7.png" alt="imagen logo laboratorio" width="100px" height="100px">
+      </div>             
+      <div id="menu">
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="Resultados.html">RESULTADOS</a></li>
+          <li><a href="Horariosysedes.html">HORARIOS Y CENTROS DE ATENCION</a></li>             
+          <li><a href="Obrassociales.html">OBRAS SOCIALES</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="turnos1">
+      <div class="presentacion2">
+        <h2>Extraccion Domiciliaria</h2>
+        <ul>
+          <li>Estimado paciente,
+            Nuestra modalidad de atención a Domicilio es por turno online o comunicandose
+            por nuestras vias telefonicas. Consultar zona de cobertura y tener a mano los
+            pedidos que su medico le realizo.
+            ¡Muchas gracias!
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="form11">
+    <form class="form21">
+      <h3>Domicilio</h3>
+      <label>Nombre y Apellido</label>
+      <input type="text" placeholder="Escribe tuNombre y Apellido"/>
+      <label>DNI</label>
+      <input type="text" placeholder="Escribe tu DNI"/>
+      <label>Telefono</label>
+      <input type="tel" placeholder="Escribe tu telefono"/>
+      <label>Email</label>
+      <input type="email" placeholder="Escribe tu email"/>
+      <label>Direccion</label>
+      <input type="text"placeholder="Direccion"/>
+      <Label>Tipo de Vivienda</Label>
+      <select name="" id="" class="btn btn-outline-secondary"> class="dropdown-toggle">
+          <option value="Particular">Casa</option>
+          <option value="Osmedica">Departamento</option>
+      <label>Barrio</label>
+      <input type="text"placeholder="Barrio"/>
+      <label>Seleccione su turno</label>
+      <input type="date"placeholder="date"/>
+      <Label>Obra Social</Label>
+      <select name="" id="" class="btn btn-outline-secondary"> class="dropdown-toggle">
+          <option value="Particular">Particular</option>
+          <option value="Osmedica">Osmedica</option>
+          <option value="Osde">Osde</option>
+          <option value="Medife">Medife</option>
+          <option value="Apross">Apross</option>
+          <option value="PAMI">PAMI</option>
+          <option value="Cs Economicas">Cs Economicas</option>
+          <option value="DASPU">DASPU</option>
+          <option value="UOM">UOM</option>
+          <option value="Otras">Otras</option>
+      </select>
+      <br>
+      <label>Ubicacion entre Calles</label>
+      <br>
+      <textarea name="Comentarios" id="" cols="53" rows="3"></textarea>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Confirmar Turno
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"><p class="text-dark">Turno Confirmado</p></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="text-dark">Su Turno fue confirmado, en instantes le llegara un mail con los datos del mismo</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Conservar Turno</button>
+              <button type="button" class="btn btn-primary">Cancelar Turno</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <br>
+      <input type="reset"class="btn btn-light" value="Borrar Informacion"> 
+    </form>
+    
+  </section>
+  <footer>
+    <section class="pie">
+      <div class="pie1">
+        <img src="img/Logo titulo7.png" alt="imagen logo">
+      </div>
+      <div class="pie2">
+        <p>En QC, estamos día a día en la búsqueda de mejorar la atención a todos nuestros pacientes</p>
+      </div>
+      <div class="pie5">
+        <div id="menu1">
+          <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="Resultados.html">RESULTADOS</a></li>
+            <li><a href="Horariosysedes.html">HORARIOS</a></li>             
+            <li><a href="Obrassociales.html">OBRAS SOCIALES</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pie4">
+        <button type="button" class="btn btn-outline-secondary">infolaboratorio@gmail.com</button>
+        <button type="button" class="btn btn-outline-secondary">0351453653/54</button>
+      </div>
+      <div class="pie3">
+        <div class="contacto2"><a href="https://www.facebook.com/"><img src="img/Facebook2.png" alt=""></a></div>
+        <div class="contacto2"><a href="https://www.instagram.com"><img src="img/instagram1.png" alt=""></a></div>
+        <div class="contacto2"><a href="https://twitter.com/"><img src="img/twitter-bird-logo.png.png" alt=""></a></div>
+      </div>    
+    </div> 
+  </footer>
+        
+</body>
+</html>
+    
