@@ -61,7 +61,7 @@
 }
 .menumedio .cajaturno {
   width: 400px;
-  height: 500px;
+  height: 700px;
   padding-top: 50px;
   padding-left: 85px;
   margin-left: 15px;
@@ -71,10 +71,16 @@
   height: 150px;
 }
 .menumedio .cajaturno .card-body {
-  color: white;
+  color: gray;
   background: #111111;
-  height: 220px;
+  height: 450px;
 }
 .menumedio .cajaturno .btn {
   background: orangered;
+}
+.menumedio .cajaturno p {
+  padding-top: 5px;
+}
+.menumedio .cajaturno h5 {
+  padding-top: 20px;
 }

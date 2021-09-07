@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    margin-top: 450px;
+    margin-top: 0px;
     background : rgb(31, 30, 30);
     color: white;
     .pie {
@@ -11,38 +11,39 @@ footer{
     font-size: 80%;    
         .pie1 {
         width: 130px;
-        padding-top: 20px;
-        border-right: white solid;
+        padding-top: 60px;
             img {
-            height: 100px;
-            width: 100px;
+            height: 50px;
+            width: 50px;
             border-radius: 50%;
-            margin-left: 10px;
+            margin-left: 50px;
             overflow: hidden;
             }
         }
         .pie2{
-            border-left: white solid;
+           
              p{
             margin-left: 10px;
-            width: 210px;
-            margin-top: 40px;
-            margin-left: 90px;
+            width: 240px;
+            margin-top: 60px;
+            margin-left: 10px;
             text-align: center;
-            font-size: 85%;
+            font-size: 110%;
+            color: gray;
             }
         }
         .pie3 {  
         display: flex;   
-        flex-direction: row;
-        width: 100px;
-        padding-top: 85px;
-        padding-left: 280px;
+        flex-direction: column;
+        width: 50px;
+        padding-top: 10px;
+        padding-left: 380px;
         margin-right: 5px;
             img {
                 width: 30px;
                 height: 30px;
-                margin-left: 30px;
+                margin-left:130px;
+                margin-top: 30px;
                 border-radius: 50%;
                 overflow: hidden;
             }
@@ -50,12 +51,13 @@ footer{
         .pie4 {
         display: flex;
         flex-direction: row;
-        margin-top: 80px;
-        width: 100px;
+        margin-top: 70px;
+        width: 40px;
         margin-left: 90px;
-            .mail{
-                margin-right: 15px;
-                color: white;
+            button{
+                color: gray;
+                height: 50px;
+                margin-left: 30px;
             }
         }
         .pie5{
@@ -85,7 +87,7 @@ footer{
 
             }
             #menu1 ul li a{
-                color: white;
+                color: gray;
                 display: block;
                 padding: 15px 15px;
                 justify-content: space-evenly;
@@ -93,7 +95,7 @@ footer{
             }
             
             #menu1 ul li a:hover{
-                background : rgb(77, 73, 73);
+                background : orangered;
                 color: white;
                 
                 

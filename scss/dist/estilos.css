@@ -1,7 +1,7 @@
 header {
   background-image: url(https://laboratorioaclimu.com.ar/wp-content/uploads/2020/08/Aclimu-labo-Buenos-Aires.jpg);
   background-size: cover;
-  height: 750px;
+  height: 650px;
   font-family: "Roboto", sans-serif;
 }
 header .barracontacto {
@@ -105,7 +105,7 @@ header .presentacion h2 {
   font-weight: bolder;
   margin-left: 45px;
   margin-bottom: 20px;
-  color: #c0481c;
+  color: orangered;
   width: 300px;
 }
 header .presentacion p {
@@ -120,7 +120,7 @@ header .turnoonline {
 header .turnoonline button {
   width: 300px;
   height: 60px;
-  background-color: #c0481c;
+  background-color: orangered;
   font-size: 150%;
   color: white;
 }
@@ -130,87 +130,79 @@ main {
   display: flex;
   flex-direction: row;
   font-family: "Roboto", sans-serif;
-  height: 600px;
+  height: 460px;
 }
 main .Domicilio {
-  color: black;
+  color: orangered;
   width: 49.5%;
-  background-image: url();
+  background-color: #1f1e1e;
   background-size: cover;
 }
 main .Domicilio h2 {
-  font-size: 150%;
-  padding-top: 60px;
-  padding-left: 200px;
-  width: 350px;
+  font-size: 170%;
+  padding-top: 50px;
+  padding-left: 45px;
+  width: 550px;
 }
 main .Domicilio p {
-  padding-left: 200px;
-  padding-top: 55px;
+  padding-left: 45px;
+  padding-top: 35px;
   color: gray;
-  font-size: 80%;
+  font-size: 100%;
   width: 550px;
 }
 main .Domicilio button {
-  width: 250px;
+  width: 300px;
   height: 50px;
-  background-color: #c0481c;
-  font-size: 150%;
+  background-color: orangered;
+  font-size: 140%;
   color: white;
-  margin-left: 200px;
-  margin-top: 70px;
+  margin-left: 300px;
+  margin-top: 45px;
 }
 main .grilla {
-  background-image: url(https://escuelafarmacia.com/wp-content/uploads/cursos-de-hematologia.jpg);
+  background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/areas-de-un-laboratorio-clinico-y-sus-funciones-2-1597173995.jpg);
   background-size: cover;
-  width: 50%;
-}
-main .grilla p {
-  color: black;
-  margin-top: 180px;
-  margin-left: 100px;
-  font-size: 110%;
-  width: 550px;
-  letter-spacing: 2px;
+  width: 52%;
 }
 
 footer {
   width: 100%;
   margin-top: 450px;
-  background: black;
+  background: #1f1e1e;
   color: white;
 }
 footer .pie {
   display: flex;
   flex-direction: row;
-  height: 230px;
+  height: 210px;
   font-family: "Roboto", sans-serif;
   font-size: 80%;
 }
-footer .pie1 {
+footer .pie .pie1 {
   width: 130px;
-  padding-top: 30px;
-  padding-left: 2px;
+  padding-top: 20px;
   border-right: white solid;
 }
-footer img {
-  height: 170px;
+footer .pie .pie1 img {
+  height: 100px;
   width: 100px;
-  border-radius: 30%;
+  border-radius: 50%;
+  margin-left: 10px;
   overflow: hidden;
 }
-footer .pie2 {
+footer .pie .pie2 {
   border-left: white solid;
 }
-footer p {
+footer .pie .pie2 p {
   margin-left: 10px;
   width: 210px;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 90px;
   text-align: center;
-  font-size: 110%;
+  font-size: 85%;
 }
-footer .pie3 {
+footer .pie .pie3 {
   display: flex;
   flex-direction: row;
   width: 100px;
@@ -218,25 +210,25 @@ footer .pie3 {
   padding-left: 280px;
   margin-right: 5px;
 }
-footer .pie3 img {
+footer .pie .pie3 img {
   width: 30px;
   height: 30px;
   margin-left: 30px;
   border-radius: 50%;
   overflow: hidden;
 }
-footer .pie4 {
+footer .pie .pie4 {
   display: flex;
   flex-direction: row;
   margin-top: 80px;
   width: 100px;
   margin-left: 90px;
 }
-footer .pie4 .mail {
+footer .pie .pie4 .mail {
   margin-right: 15px;
   color: white;
 }
-footer .pie5 {
+footer .pie .pie5 {
   justify-content: start;
   font-size: 80%;
   width: 140px;
@@ -244,51 +236,135 @@ footer .pie5 {
   padding-bottom: 280px;
   padding-left: 10px;
 }
-
-#menu1 {
-  background: black;
+footer .pie .pie5 #menu1 {
+  background: #1f1e1e;
   margin-left: 10px;
   margin-top: 10px;
 }
-
-#menu1 a {
+footer .pie .pie5 #menu1 a {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 100%;
 }
-
-#menu1 ul {
+footer .pie .pie5 #menu1 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-#menu1 ul li {
+footer .pie .pie5 #menu1 ul li {
   display: inline-block;
 }
-
-#menu1 ul li a {
+footer .pie .pie5 #menu1 ul li a {
   color: white;
   display: block;
   padding: 15px 15px;
   justify-content: space-evenly;
   text-decoration: none;
 }
-
-#menu1 ul li a:hover {
+footer .pie .pie5 #menu1 ul li a:hover {
   background: #4d4949;
   color: white;
 }
 
+article {
+  width: 100%;
+  height: 850px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 30px;
+  background-color: #1f1e1e;
+}
+article .nuestrolabotitulo {
+  margin-bottom: 30px;
+}
+article .nuestrolabotitulo h3 {
+  padding-left: 330px;
+  padding-bottom: 40px;
+  font-size: 170%;
+  color: orangered;
+}
+article .nuestrolabotitulo p {
+  width: 850px;
+  padding-left: 90px;
+  color: gray;
+  font-size: 100%;
+}
+article .carousel-inner img {
+  width: 500px;
+  height: 500px;
+}
+article .carousel-indicators {
+  background-color: orangered;
+  width: 350px;
+  margin-left: 300px;
+}
+
+.somos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 850px;
+  margin-top: 230px;
+}
+.somos .somos1 {
+  width: 695px;
+  height: 350px;
+}
+.somos .somos1 p {
+  color: gray;
+  font-size: 130%;
+  padding: 70px 20px 5px 20px;
+  text-align: center;
+  margin-left: 80px;
+  font-weight: bold;
+}
+.somos .somos2 img {
+  width: 650px;
+  height: 350px;
+}
+.somos .somos3 img {
+  width: 700px;
+  height: 450px;
+}
+.somos .somos4 {
+  background-image: url(http://www.ovlab.pe/wp-content/uploads/2021/03/Perfil-de-Apoyo--1024x1024.jpg);
+  background-size: cover;
+  width: 650px;
+  height: 450px;
+}
+.somos .somos4 p {
+  color: #3f1b2e;
+  font-size: 130%;
+  padding: 200px 20px 5px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Especialidades {
+  background-image: url(https://static.miweb.padigital.es/var/m_6/69/69f/60927/882102-38730978_m.jpg?v=7.3.45008.2);
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+}
+.Especialidades h3 {
+  padding-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.Especialidades p {
+  margin-left: 80px;
+  font-size: 120%;
+  text-align: center;
+  font-weight: bold;
+}
+
 .recom {
-  background: linear-gradient(to left, #813f12, #ee8f50);
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 180px;
-  margin-top: 0px;
-  padding: 10px 120px 10px 160px;
-  margin-bottom: 0px;
+  height: 200px;
   font-family: "Roboto", sans-serif;
 }
 .recom h3 {
@@ -297,44 +373,53 @@ footer .pie5 {
 .recom .recom2 {
   border-right: white solid;
   padding-right: 110px;
+  background-color: #111111;
+  width: 49%;
+  padding-top: 30px;
+  border-bottom: white solid;
+}
+.recom .recom2 h3 {
+  color: orangered;
 }
 .recom .recom2 p {
   margin-bottom: 100px;
-  color: white;
+  color: gray;
   margin-left: 45px;
   padding-right: 30px;
   margin-top: 10px;
-  width: 350px;
   height: 100px;
   text-align: justify;
   font-size: 80%;
 }
 .recom .recom2 h3 {
-  margin-left: 150px;
+  margin-left: 250px;
 }
 .recom .recom4 {
   padding-left: 70px;
+  background-color: orangered;
+  width: 51%;
+  padding-top: 30px;
 }
 .recom .recom4 p {
   margin-bottom: 100px;
   color: white;
-  margin-left: 60px;
+  width: 550px;
+  margin-left: 10px;
   margin-top: 10px;
-  width: 350px;
   height: 100px;
   text-align: justify;
   font-size: 80%;
 }
 .recom .recom4 h3 {
-  margin-left: 160px;
+  margin-left: 220px;
 }
 
 .menumedio {
   width: 100%;
   display: flex;
   flex-direction: row;
-  background: black;
-  margin-bottom: 150px;
+  background: #111111;
+  margin-bottom: 0px;
 }
 .menumedio .cajaturno {
   width: 400px;
@@ -349,20 +434,61 @@ footer .pie5 {
 }
 .menumedio .cajaturno .card-body {
   color: white;
-  background: linear-gradient(to left, #813f12, #ee8f50);
+  background: #111111;
   height: 220px;
 }
+.menumedio .cajaturno .btn {
+  background: orangered;
+}
 
-.form2 {
+header .turnos {
   background-image: url(https://fmmaster.net/05-2021/resize_1622243907.jpg);
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 440px;
+  background-color: #3a3939;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+header .turnos .presentacion1 {
+  margin: 100px 1px 10px 20px;
+  width: 50%;
+}
+header .turnos .presentacion1 h2 {
+  font-size: 300%;
+  font-weight: bolder;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  color: orangered;
+  width: 800px;
+}
+header .turnos .presentacion1 ul li {
+  font-size: 100%;
+  text-align: center;
+  width: 600px;
+  list-style: none;
+  color: white;
+  margin-top: 120px;
+  padding-top: 20px;
+  background-color: orangered;
+  height: 140px;
 }
 
 .form1 {
+  background-color: #3a3939;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.form1 .form2 {
   color: azure;
   width: 30%;
   height: 900px;
-  margin-top: 180px;
+  padding-top: 40px;
   margin-left: 150px;
   margin-bottom: 15px;
   padding-top: 25px;
@@ -370,27 +496,30 @@ footer .pie5 {
   text-align: center;
   text-align: start;
 }
-
-.form1 h3 {
-  color: #220606;
+.form1 .form2 h3 {
+  color: orangered;
   font-size: 200%;
   padding-bottom: 5px;
-  padding-top: 10px;
+  padding-top: 80px;
 }
-
-.form1 label {
+.form1 .form2 label {
   padding-right: 30px;
   margin: 10px 10px 10px 10px;
   font-size: 120%;
 }
-
-.form1 input {
+.form1 .form2 input {
   width: 400px;
 }
-
-.form1 button {
-  margin: 15px 0px 10px 100px;
+.form1 .form2 .btn {
+  margin: 5px 0px 10px 100px;
   width: 200px;
+  background-color: orangered;
+  color: black;
+}
+.form1 .form3 img {
+  width: 800px;
+  height: 600px;
+  padding: 100px 30px 20px 200px;
 }
 
 .calidad {
@@ -463,187 +592,271 @@ footer .pie5 {
   height: 300px;
 }
 
+.presentacionobras {
+  margin: 130px 40px 10px 100px;
+}
+.presentacionobras h2 {
+  font-size: 300%;
+  font-weight: bolder;
+  margin-left: 45px;
+  margin-bottom: 20px;
+  color: orangered;
+  width: 900px;
+}
+.presentacionobras p {
+  font-size: 190%;
+  text-align: center;
+  margin-left: 325px;
+  margin-top: 50px;
+  width: 800px;
+}
+
+.obrasaclaracion {
+  width: 100%;
+  height: 100px;
+}
+.obrasaclaracion p {
+  width: 100%;
+  height: 100px;
+  background-color: orangered;
+  padding-top: 20px;
+  font-size: 100%;
+  color: white;
+  text-align: center;
+}
+
 .obras {
   display: flex;
+  flex-direction: row;
+}
+.obras .obras1 {
+  display: flex;
   flex-direction: column;
-  width: 1150px;
-  height: 850px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  width: 80%;
+  height: 750px;
+  padding-top: 50px;
+  background-color: #1f1e1e;
+}
+.obras .obras1 h3 {
+  padding-left: 230px;
+  color: orangered;
+}
+.obras .obras1 ul li {
+  list-style: none;
+  margin-bottom: 5px;
   margin-left: 60px;
   padding-left: 150px;
   padding-top: 30px;
-  background-image: url(http://www.cibic.com.ar/wp-content/uploads/2016/06/PBC.jpg);
-  background-size: cover;
 }
-.obras h3 {
-  color: #929191;
-  padding-right: 350px;
+.obras .obras1 ul li button {
+  width: 300px;
+  background-color: #111111;
 }
-
-.obras1 {
-  padding-top: 70px;
-}
-.obras1 img {
-  width: 650px;
+.obras .obras2 img {
+  padding-top: 50px;
+  width: 100%;
+  height: 600px;
 }
 
-.obras2 {
-  padding-top: 70px;
-}
-.obras2 img {
-  width: 650px;
-}
-
-.obras3 {
-  padding-top: 70px;
-}
-.obras3 img {
-  width: 650px;
-}
-
-.obras4 {
-  padding-top: 70px;
-}
-.obras4 img {
-  width: 650px;
-}
-
-.horarios {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 1150px;
-  height: 650px;
-  margin-top: 30px;
-  margin-bottom: 90px;
-  margin-left: 70px;
-}
-.horarios .horarios1 {
-  background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda);
-}
-.horarios .horarios1 h3 {
-  color: white;
+header .mapasede1 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 440px;
+  background-color: #3a3939;
+  margin-left: 80px;
   margin-top: 100px;
 }
-.horarios .horarios1 p {
-  color: white;
-  font-size: 120%;
-  padding: 10px 20px 5px 20px;
+header .mapasede1 .presentacion1 {
+  margin: 100px 1px 10px 20px;
+  width: 50%;
+}
+header .mapasede1 .presentacion1 h2 {
+  font-size: 280%;
+  font-weight: bolder;
+  padding-left: 205px;
+  margin-bottom: 20px;
+  color: orangered;
+  width: 600px;
+}
+header .mapasede1 .presentacion1 ul li {
+  font-size: 150%;
   text-align: center;
+  width: 650px;
+  list-style: none;
+  color: gray;
+  margin-top: 20px;
 }
-.horarios .horarios3 img {
-  width: 580px;
-  height: 350px;
+header .mapasede1 .mapa1 iframe {
+  padding: 50px 40px 20px 80px;
+  width: 600px;
+  height: 450px;
 }
-.horarios .horarios4 {
-  background-image: linear-gradient(to left, rgba(108, 200, 223, 0.705), #548eda);
+
+.fotossedecentral {
+  width: 100%;
+  height: 500px;
+  background-color: #3a3939;
 }
-.horarios .horarios4 h3 {
+.fotossedecentral .fotossedecentral1 {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.fotossedecentral .fotossedecentral1 .carousel-inner img {
+  width: 500px;
+  height: 500px;
+}
+
+#titulosedes2 {
+  width: 100%;
+  height: 60px;
+  background-color: orangered;
+}
+#titulosedes2 h3 {
+  padding: 10px 20px 20px 440px;
+  font-size: 200%;
   color: white;
+}
+
+.horariosa {
+  width: 100%;
+  background-color: #111111;
+  height: 2000px;
+}
+.horariosa .horarios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 80%;
+  height: 1550px;
+  padding-top: 70px;
+  margin-bottom: 90px;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+.horariosa .horarios .horarios1 {
+  background-color: #3a3939;
+}
+.horariosa .horarios .horarios1 h3 {
+  color: orangered;
   margin-top: 70px;
+  padding-left: 180px;
 }
-.horarios .horarios4 p {
-  color: white;
-  font-size: 120%;
+.horariosa .horarios .horarios1 p {
+  color: gray;
+  font-size: 130%;
   padding: 10px 20px 5px 20px;
   text-align: center;
+}
+.horariosa .horarios .horarios2 img {
+  width: 100%;
+  height: 300px;
+}
+.horariosa .horarios .horarios3 Iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.presentacionresultados h2 {
+  padding: 110px 40px 10px 400px;
+  font-size: 300%;
+  font-weight: bolder;
+  color: orangered;
+  width: 1000px;
+}
+.presentacionresultados p {
+  margin: 70px 40px 10px 750px;
+  font-size: 150%;
+  text-align: center;
+  width: 550px;
+  color: black;
 }
 
 .resultados {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 90%;
-  height: 700px;
-  margin-top: 180px;
-  margin-left: 30px;
-  margin-bottom: 30px;
+  width: 100%;
+  height: 335px;
 }
 .resultados .resultados1 {
-  background-color: blue;
+  background-color: #111111;
+  height: 335px;
 }
 .resultados .resultados1 h3 {
-  color: white;
-  margin-top: 140px;
+  color: orangered;
+  margin-top: 70px;
+  padding-left: 250px;
 }
 .resultados .resultados1 p {
-  color: white;
-  font-size: 150%;
-  padding: 10px 20px 5px 20px;
+  color: gray;
+  font-size: 130%;
+  padding: 30px 20px 5px 90px;
   text-align: center;
+  width: 600px;
 }
 .resultados .resultados2 {
+  background-color: #1f1e1e;
   color: #929191;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-left: 20px;
   padding-right: 30px;
+  height: 335px;
 }
 .resultados .resultados2 label {
   font-size: 140%;
 }
+.resultados .resultados2 .btn {
+  background-color: orangered;
+  color: white;
+  padding-top: 15px;
+  width: 150px;
+}
 
-.somos {
+nav {
+  background-color: #1f1e1e;
+}
+nav .tituloanalisis {
+  height: 250px;
+  width: 100%;
+}
+nav .tituloanalisis h3 {
+  color: gray;
+  padding: 100px 10px 10px 450px;
+  font-size: 250%;
+}
+nav .informe {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  height: 1250px;
+  width: 80%;
+  margin-left: 150px;
+}
+nav .informe .informe1 {
+  height: 280px;
+  background-color: #111111;
   width: 100%;
-  height: 850px;
-  margin-top: 230px;
 }
-.somos .somos1 {
-  width: 695px;
-  height: 350px;
-  background-size: cover;
-  background-image: url(https://irp-cdn.multiscreensite.com/99c815e4/DESKTOP/png/1425933-graciela-rivarola-laboratorio-banner-1.png);
+nav .informe .informe1 h3 {
+  color: orangered;
+  margin-top: 20px;
+  padding-left: 150px;
 }
-.somos .somos1 p {
-  color: #3f1b2e;
-  font-size: 130%;
-  padding: 70px 20px 5px 20px;
-  text-align: center;
-  margin-left: 80px;
-  font-weight: bold;
+nav .informe .informe1 ul li {
+  color: gray;
+  padding: 10px 20px 2px 20px;
+  width: 500px;
+  font-size: 90%;
+  list-style: none;
 }
-.somos .somos2 img {
-  width: 650px;
-  height: 350px;
-}
-.somos .somos3 img {
-  width: 700px;
-  height: 450px;
-}
-.somos .somos4 {
-  background-image: url(http://www.ovlab.pe/wp-content/uploads/2021/03/Perfil-de-Apoyo--1024x1024.jpg);
-  background-size: cover;
-  width: 650px;
-  height: 450px;
-}
-.somos .somos4 p {
-  color: #3f1b2e;
-  font-size: 130%;
-  padding: 200px 20px 5px 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.Especialidades {
-  background-image: url(https://static.miweb.padigital.es/var/m_6/69/69f/60927/882102-38730978_m.jpg?v=7.3.45008.2);
-  background-size: cover;
+nav .informe .informe2 img {
   width: 100%;
-  height: 650px;
-}
-.Especialidades h3 {
-  padding-top: 20px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-weight: bold;
-}
-.Especialidades p {
-  margin-left: 80px;
-  font-size: 120%;
-  text-align: center;
-  font-weight: bold;
+  height: 280px;
 }
 
 @media screen and (max-width: 768px) {

@@ -59,7 +59,7 @@
     margin-bottom: 0px;
     .cajaturno {
         width: 400px;
-        height: 500px;
+        height: 700px;
         padding-top: 50px;
         padding-left: 85px;
         margin-left: 15px;
@@ -68,12 +68,18 @@
             height: 150px;
         }
         .card-body{
-            color: white;
-            background: rgb(17, 17, 17);
-            height: 220px;
+            color:gray;
+            background:rgb(17, 17, 17);
+            height: 450px;
         }
         .btn {
             background: orangered;
+        }
+        p {
+            padding-top: 5px;
+        }
+        h5 {
+            padding-top: 20px;
         }
     }
     

@@ -19,7 +19,7 @@ header .barracontacto a {
 }
 header .barracontacto a:hover {
   background-color: orangered;
-  font-size: 350%;
+  font-size: 150%;
   color: white;
 }
 header .barracontacto .mail {
@@ -92,6 +92,7 @@ header #menu ul li a {
   padding: 10px 35px;
   justify-content: space-evenly;
   text-decoration: none;
+  font-size: 90%;
 }
 header #menu ul li a:hover {
   background: white;
