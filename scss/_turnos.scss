@@ -36,13 +36,13 @@ header {
     }
 }
 .form1{
-    background-color: rgb(58, 57, 57);
+    background-image: url(https://www.bbva.com/wp-content/uploads/2019/11/BBVA-Argentina-nueva-web-20112019-1920x1180.jpg);
     background-size: cover;
     width: 100%;
     display: flex;
     flex-direction: row;
     .form2 {
-        color: azure;
+        color:rgb(17, 17, 17);
         width: 30%;
         height: 900px;
         padding-top: 40px;
@@ -74,8 +74,8 @@ header {
         }
     }
     .form3 img {
-        width: 800px;
-        height: 600px;
-        padding: 100px 30px 20px 200px;         
+        width: 400px;
+        height: 400px;
+        padding: 100px 30px 20px 50px;         
     }
 }
