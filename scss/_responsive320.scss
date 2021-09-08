@@ -1,0 +1,865 @@
+@media screen and (max-width:320px)
+ {body
+    header {
+        background-image: url(https://laboratorioaclimu.com.ar/wp-content/uploads/2020/08/Aclimu-labo-Buenos-Aires.jpg);
+        background-size: cover;
+        height: 450px;
+        width: 320px;
+        font-family: 'Roboto', sans-serif;
+        .barracontacto {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 30px;
+        a { 
+            color:gray;
+            font-size: 100%;
+            text-decoration: none;
+            padding: 5px 5px 10px 1px;
+        }
+        .mail{
+            margin-left: 10px;
+            margin-top: 5px;
+            font-size: 60%;
+        }
+        .telefono {
+            margin-left: 3px;
+            margin-top: 5px;
+            font-size: 60%;
+        }
+        .contacto2 {
+            margin-top:2px;
+            margin-right: 10px;
+            margin-left: 2px;
+            width: 30px;
+            height: 30px;
+            }
+            img{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            overflow: hidden;
+            }
+        } 
+        #menu {
+            margin-left: 20px;
+            margin-bottom: 25px;
+            a{
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 50%;
+            font-weight: bold;   
+            
+            }
+            ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            }
+            ul li{
+            display:flex;
+            flex-direction: column;
+            
+            }
+            ul li a{
+            color: rgb(192, 72, 28);
+            display: block;
+            padding: 5px;
+            justify-content: space-evenly;
+            text-decoration: none;
+            font-size: 45%;
+            }
+        }
+        .presentacion {
+            margin: 80px 40px 10px 2px;
+            h2 {
+                font-size: 150%;
+                font-weight: bolder;
+                margin-left: 45px;
+                margin-bottom: 20px;
+                color: orangered;
+                width: 300px;
+            }
+            p {
+                font-size: 100%;
+                text-align: center;
+                margin-left: 5px;
+                width: 300px;
+                
+            }
+        }
+        .turnoonline{
+            margin: 100px 40px 10px 150px;
+            button{
+                width: 100px;
+                height: 60px;
+                background-color: orangered;
+                font-size: 80%;
+                
+            }
+        }
+    }
+    .recom {
+        display: flex;
+        flex-direction: row;
+        width: 320px;
+        height: 230px;
+        font-family: 'Roboto', sans-serif;
+        .recom2 {
+            border-right: white solid;
+            padding-right: 2px;
+            background-color: rgb(17, 17, 17);
+            width: 50%;
+            padding-top: 2px;
+            border-bottom: white solid;
+            h3 {
+                color:orangered;
+                font-size: 100%;
+                margin-left: 20px;
+            }
+            p{
+            margin-bottom: 100px;
+            color: gray;;
+            margin-left: 5px;
+            padding-right: 10px;
+            height: 100px;
+            text-align: justify;
+            font-size: 70%;
+            }
+        }
+        .recom4 {
+            padding-left: 10px;
+            background-color: orangered;
+            width: 50%;
+            padding-top: 2px;
+            p{
+                margin-bottom: 100px;
+                color: white;
+                width: 120px;
+                margin-left: 5px;
+                margin-top: 10px;
+                height: 100px;
+                text-align: justify;
+                font-size: 70%;    
+            }
+            h3 {
+                color:gray;
+                font-size: 100%;
+                margin-left: 20px;
+            }
+        }
+    }
+    main{
+        width: 320px;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Roboto', sans-serif;
+        height: 260px;
+        .Domicilio {
+        color:orangered;
+        width: 50%;
+        height: 270px;
+        background-color: rgb(31, 30, 30);
+        background-size: cover;
+            h2 {
+                font-size: 100%;
+                padding-top: 10px;
+                padding-left: 35px;
+                width: 150px;
+            }
+            p {
+                padding-left: 45px;
+                padding-top: 15px;
+                color: gray;
+                font-size: 60%;
+                width: 150px;
+            }
+            button{
+                width: 100px;
+                height: 50px;
+                background-color: orangered;
+                font-size: 80%;
+                color: white;
+                margin-left: 2px;
+                margin-top: 25px;
+            }
+            .offcanvas-header {
+                background-color: rgb(17, 17, 17);
+                width: 100%;
+                height: 80px;
+                h5 {
+                    color: white;
+                }
+            }
+            .offcanvas-body {
+                background-color: orangered;
+                color:white;
+                p {
+                    color: rgb(17, 17, 17);
+                    font-size:130%;
+                }
+            }
+        }
+        .grilla {
+            background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/areas-de-un-laboratorio-clinico-y-sus-funciones-2-1597173995.jpg);
+            background-size: cover;
+            width: 50%;
+            height: 270px;
+        }
+    }
+    .menumedio{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        background : rgb(17, 17, 17);
+        margin-bottom: 0px;
+        .cajaturno {
+            width: 280px;
+            height: 800px;
+            padding-top: 40px;
+            padding-left: 5px;
+            margin-left: 15px;
+            img {
+                width: 270px;
+                height: 150px;
+            }
+            .card-body{
+                color:gray;
+                background:rgb(17, 17, 17);
+                height: 580px;
+            }
+            .btn {
+                background: orangered;
+            }
+            p {
+                padding-top: 5px;
+            }
+            h5 {
+                padding-top: 20px;
+            }
+        }
+        
+    }
+    article{
+        width: 320px;
+        height: 680px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        background-color: rgb(31, 30, 30);
+        .nuestrolabotitulo {
+            margin-bottom: 30px;
+            h3 {
+                padding-left: 20px;
+                padding-bottom: 40px;
+                font-size: 100%;
+                color: orangered;
+            }
+            p {
+                width: 300px;
+                padding-left: 5px;
+                color: rgb(128, 128, 128);
+                font-size: 80%;
+            }
+        }
+        .carousel-inner img{
+            width: 400px;
+            height: 300px;
+        }
+        .carousel-indicators {
+            background-color: orangered;
+            width: 200px;
+            margin-left: 40px;
+        }
+        .titulomedio {
+            width: 400px;
+            height: 100px;
+            margin: 10px 8px 20px ;
+            h3 {
+                font-size: 80%;
+                color: orangered;
+                padding: 20px 20px 20px 10px;
+                width: 200px;
+            }
+        }
+    }
+    .somos{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 2480px;
+        background-color: rgb(17, 17, 17);           
+        .somos1 {
+                width: 100%;
+                height: 150px;
+                img {
+                    width: 250px;
+                    height: 280px;
+                    padding: 10px 2px 2px 2px;
+                    
+                }                 
+            }
+        .somos2{
+            height: 250px;
+            width:100%;
+            p {
+                color: gray;
+                font-size: 70%;
+                text-align: center;
+                width:200px;
+                margin-top:170px;
+                                              
+            }
+        }
+    }
+    footer{
+        width: 320px;
+        margin-top: 0px;
+        background : rgb(31, 30, 30);
+        color: white;
+        .pie {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 80%;    
+            .pie1 {
+            width: 50px;
+            padding-top: 60px;
+                img {
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                margin-left: 130px;
+                overflow: hidden;
+                }
+            }
+            .pie2{
+               
+                 p{
+                margin-left: 100px;
+                width: 100px;
+                margin-top: 60px;
+                text-align: center;
+                font-size: 70%;
+                color: gray;
+                }
+            }
+            .pie3 {  
+            display: flex;   
+            flex-direction: row;
+            width: 50px;
+            padding-top: 10px;
+            padding-left: 50px;
+            margin-right: 5px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin-left:30px;
+                    margin-top: 30px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+            }
+            .pie4 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            width: 250px;
+            margin-left: 20px;
+                button{
+                    color: gray;
+                    height: 50px;
+                    margin-left: 30px;
+                }
+            }
+            .pie5{
+            justify-content: start;
+            font-size: 80%;
+            width: 100px;
+            font-weight: bold;
+            padding-bottom: 20px;
+            padding-left: 100px;           
+                #menu1 {
+                    background :rgb(31, 30, 30);
+                    margin-left: 10px;
+                    margin-top: 10px;       
+                } 
+                #menu1 a{
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 70%;   
+                    }
+                #menu1 ul{
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                #menu1 ul li{
+                    display: inline-block;
+    
+                }
+                #menu1 ul li a{
+                    color: gray;
+                    display: block;
+                    padding: 15px 15px;
+                    justify-content: space-evenly;
+                    text-decoration: none;
+                }
+                
+                #menu1 ul li a:hover{
+                    background : orangered;
+                    color: white;
+                    
+                    
+                }
+            }
+        }
+    }
+    .presentacionresultados {
+        h2 {
+            padding: 110px 40px 10px 20px;
+            font-size: 200%;
+            font-weight: bolder;
+            color: orangered;
+            width: 400px;
+        }
+        p { 
+            margin: 20px 40px 10px 20px;
+            font-size: 100%;
+            text-align: center;
+            width: 250px;
+            color: black;    
+        }
+    }
+    .resultados{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 435px;
+            .resultados1 {
+                background-color: rgb(17, 17, 17);
+                height: 435px;
+                width: 165px;
+                h3{
+                    color: orangered;
+                    margin-top: 70px;
+                    padding-left: 10px;
+                }
+                p {
+                    color: gray;
+                    font-size: 80%;
+                    padding: 30px 20px 5px 1px;
+                    text-align: center;
+                    width: 180px;
+                }
+            }
+            .resultados2{
+                background-color: rgb(31, 30, 30);
+                color:rgb(146, 145, 145);;
+                padding-top: 80px;
+                padding-left: 2px;
+                padding-right: 30px;
+                height: 435px;
+                label{
+                    font-size: 140%;
+                }
+                .btn {
+                    background-color: orangered;
+                    color: white;
+                    padding-top: 15px;
+                    width: 150px;
+                }
+            }
+    }
+    nav {
+        background-color: rgb(31, 30, 30);
+        .tituloanalisis{
+            height: 250px;
+            width: 320px;
+            h3 {
+                color:gray;
+                padding: 100px 10px 10px 50px;
+                font-size: 100%;
+            }
+        }
+        .informe {
+            display: flex;
+            flex-direction: column;
+            grid-column-gap:10px;
+            grid-row-gap:10px;
+            height: 2500px;
+            width: 320px;
+            margin-left: 1px;
+            .informe1 {
+                height: 380px;
+                background-color: rgb(17, 17, 17);
+                width: 100%;
+                h3 {
+                    color: orangered;
+                    margin-top: 20px;
+                    padding-left: 2px;
+                }
+                ul li {
+                    color: gray;
+                    padding:10px 20px 2px 2px;
+                    width: 320px;
+                    font-size: 90%;
+                    list-style: none;
+                }
+            }
+            .informe2 img {
+                width: 320px;
+                height: 280px;
+            }       
+        }
+    }
+    .presentacionobras {
+        margin: 130px 40px 10px 20px;
+        h2 {
+            font-size: 200%;
+            font-weight: bolder;
+            margin-left: 5px;
+            margin-bottom: 20px;
+            color: orangered;
+            width: 400px;
+        }
+        p {
+            font-size: 100%;
+            text-align: center;
+            margin-left: 25px;
+            margin-top: 50px;
+            width: 200px;
+            
+        }
+    }
+    .obrasaclaracion {
+        width: 320px;
+        height: 100px;
+        margin-bottom: 100px;
+        p{
+            width: 100%;
+            height: 200px;
+            background-color: orangered;
+            padding-top: 20px;
+            font-size: 80%;
+            color: white;
+            text-align: center;
+           
+        }
+    }
+    .obras {
+        display: flex;
+        flex-direction: column;
+        .obras1{
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            height: 850px;
+            padding-top: 50px;
+            background-color: rgb(31, 30, 30);
+            h3 {
+                padding-left: 10px;
+                color: orangered;
+            }
+            ul li {
+                list-style: none;
+                margin-bottom: 5px;
+                margin-left: 5px;
+                padding-left: 2px;
+                padding-top: 30px;
+            }
+            ul li button {
+                width: 250px;
+                background-color:rgb(17, 17, 17);
+            }   
+        }
+        .obras2 img {
+            padding-top: 50px;
+            width: 100%;
+            height: 600px;
+        }
+    }
+    header {
+        .mapasede1 {
+            display: flex;
+            flex-direction: column;  
+            width: 90%;
+            height: 600px;
+            background-color: rgb(58, 57, 57);
+            margin-left: 10px;
+            margin-top: 80px;
+            .presentacion1 {
+                margin: 50px 1px 10px 20px;
+                width: 50%;
+                h2 {
+                    font-size: 100%;
+                    font-weight: bolder;
+                    padding-left: 55px;
+                    margin-bottom: 20px;
+                    color: orangered;
+                    width: 320px;
+                }
+                ul li{
+                    font-size: 100%;
+                    text-align: center;
+                    width: 150px;
+                    list-style: none;
+                    color: gray;
+                    margin-top:4px;
+                    margin-left: 30px;                
+                }
+            }   
+            .mapa1 iframe {
+                padding: 20px 40px 20px 5px;
+                width: 320px;
+                height: 400px;
+            }
+        }
+    }
+    .fotossedecentral {
+        width: 320px;
+        height: 730px;
+        background-color: rgb(58, 57, 57);
+        padding-top: 400px;
+        .fotossedecentral1 {
+            margin-left:50px;
+            margin-right: 50px;
+            .carousel-inner img{
+                width: 320px;
+                height: 300px;
+                
+            }
+        }
+    }
+    #titulosedes2 {
+        width:150%;
+        height: 60px;
+        background-color: orangered;
+        h3{
+            padding: 10px 20px 20px 40px;
+            font-size: 100%;
+            color: white;
+        }
+    }
+    .horariosa {
+        width: 100%;
+        background-color: rgb(17, 17, 17);
+        height: 3800px;
+        .horarios{
+            display: grid;
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 1550px;
+            padding-top: 70px;
+            margin-bottom: 90px;
+            margin-top: 0px;
+            margin-left: 40px;
+            .horarios1 {
+                background-color: rgb(58, 57, 57);
+                h3{
+                    color:orangered;
+                    margin-top: 70px;
+                    padding-left: 80px;
+                }
+                p {
+                    color:gray;
+                    font-size: 130%;
+                    padding: 10px 20px 5px 20px;
+                    text-align: center;
+                }
+            }
+            .horarios2 img{
+                width:100%;
+                height: 300px;
+            }
+            .horarios3 Iframe{
+                width:100%;
+                height: 300px;
+                
+                
+            }   
+        }
+ 
+    }
+    header {
+        .turnos1 {
+            background-image: url(https://plansalud.com.ar/wp-content/uploads/2020/11/planes-que-incluyen-medicos-a-domicilio.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: row;  
+            width: 90%;
+            height: 480px;
+            background-color: rgb(58, 57, 57);
+            margin-left: 20px;
+            margin-top:80px;
+            .presentacion2 {
+                margin: 20px 1px 10px 1px;
+                width: 50%;
+                h2 {
+                    font-size: 100%;
+                    font-weight: bolder;
+                    padding-left: 10px;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                    color: orangered;
+                    width: 300px;
+                }
+                ul li{
+                    font-size: 70%;
+                    text-align: center;
+                    width: 230px;
+                    list-style: none;
+                    color:white;
+                    margin-top:120px;
+                    padding-top: 20px;
+                    background-color: orangered;
+                    height: 160px;                      
+                }
+            }   
+        }
+    }
+    .form11{
+        background-image: url(https://progresarsalud.com.ar/img/banner1-fhd.jpg);
+       
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        .form21 {
+            color:  rgb(17, 17, 17);
+            width: 30%;
+            height: 1350px;
+            padding-top: 40px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            padding-top: 25px;
+            padding-bottom: 75px;
+            text-align: center;
+            text-align: start;
+            h3 {
+                color: orangered;
+                font-size: 200%;
+                padding-bottom: 5px;
+                padding-top: 80px;
+            }
+            label{
+                padding-right:30px ;
+                margin: 10px 10px 10px 10px;
+                font-size: 120%;
+            }
+            input {
+                width: 300px; 
+            }
+            .btn{
+                margin: 5px 0px 10px 100px;
+                width: 200px;
+                background-color: orangered;
+                color: black;
+            }
+        }
+        .form3 img {
+            width: 600px;
+            height: 600px;
+            padding: 0px 30px 20px 250px;         
+        }
+    }
+    header {
+        .turnos {
+            background-image: url(https://fmmaster.net/05-2021/resize_1622243907.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: row;  
+            width: 90%;
+            height: 640px;
+            background-color: rgb(58, 57, 57);
+            margin-left: 20px;
+            margin-top:80px;
+            .presentacion1 {
+                margin: 80px 1px 10px 20px;
+                width: 50%;
+                h2 {
+                    font-size: 200%;
+                    font-weight: bolder;
+                    padding-left: 50px;
+                    margin-bottom: 5px;
+                    margin-top: 100px;
+                    color: orangered;
+                    width: 300px;
+                }
+                ul li{
+                    font-size: 80%;
+                    text-align: center;
+                    width: 220px;
+                    list-style: none;
+                    color:white;
+                    margin-top:20px;
+                    padding-top: 20px;
+                    background-color: orangered;
+                    height: 180px;                      
+                }
+            }   
+        }
+    }
+    .form1{
+        background-image: url(https://www.bbva.com/wp-content/uploads/2019/11/BBVA-Argentina-nueva-web-20112019-1920x1180.jpg);
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        .form2 {
+            color:rgb(17, 17, 17);
+            width: 30%;
+            height: 1350px;
+            padding-top: 40px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            padding-top: 230px;
+            padding-bottom: 75px;
+            text-align: center;
+            text-align: start;
+            h3 {
+                color: orangered;
+                font-size: 200%;
+                padding-bottom: 5px;
+                padding-top: 80px;
+            }
+            label{
+                padding-right:30px ;
+                margin: 10px 10px 10px 10px;
+                font-size: 120%;
+            }
+            input {
+                width: 300px; 
+            }
+            .btn{
+                margin: 5px 0px 10px 100px;
+                width: 200px;
+                background-color: orangered;
+                color: black;
+            }
+        }
+        .form3 img {
+            width: 150px;
+            height: 200px;
+            padding: 190px 30px 20px 10px;         
+        }
+    }
+    
+    
+ }
+    
+           
+    
+    
+             
+        
+    
+    
+        
+      
+
+            
+  
